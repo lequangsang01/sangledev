@@ -1,0 +1,145 @@
+{
+  "ui": {
+    "heroTagline": "SangLe • SangLee • LE QUANG SANG",
+    "heroTitle": "Kĩ sư lập trình Full Stack & AI tại Hà Nội",
+    "heroDescription": "Tôi là Lê Quang Sang (SangLe/SangLee), 24 tuổi, đam mê xây dựng sản phẩm Web/App, tích hợp AI và tối ưu trải nghiệm người dùng. Mục tiêu của tôi là đồng hành cùng doanh nghiệp trong các dự án đổi mới số và sản phẩm quốc tế.",
+    "primaryCta": "Đặt lịch trao đổi",
+    "githubCta": "GitHub Portfolio",
+    "experienceTagline": "Kinh nghiệm nổi bật",
+    "experienceHeading": "4+ năm xây dựng sản phẩm cho y tế, mạng xã hội & AI",
+    "experienceIntro": "Từ Full Stack đến AI/Computer Vision, tôi ưu tiên hiệu quả, bảo mật và khả năng mở rộng, phối hợp chặt chẽ với đội ngũ sản phẩm/marketing.",
+    "skillsTagline": "Năng lực kỹ thuật",
+    "skillsHeading": "Stack linh hoạt cho Web, Mobile, AI & DevOps",
+    "skillsIntro": "Ưu tiên clean code, quy trình CI/CD và thử nghiệm thực tiễn để đảm bảo sản phẩm có thể mở rộng và dễ bảo trì.",
+    "educationTagline": "Học vấn & thành tựu",
+    "educationHeading": "Kĩ sư CNTT – AI & Computer Vision",
+    "educationIntro": "Đại học Điện Lực (2019 – 2024), GPA 3.61 · Xuất Sắc. Nghiên cứu AI, tham gia các dự án OCR, tìm kiếm hình ảnh và sản phẩm cộng đồng.",
+    "calloutTitle": "Sẵn sàng đồng hành cùng bạn?",
+    "calloutDescription": "Ưu tiên làm việc dài hạn với đội ngũ yêu cầu tốc độ triển khai và khả năng mở rộng. Tôi chủ động cập nhật công nghệ và truyền đạt rõ ràng cho stakeholder.",
+    "calloutInterests": "Tôi yêu thích đọc sách (1 quyển/tháng) và chạy bộ 3 buổi mỗi tuần để giữ sự tập trung và sự bền bỉ khi dẫn dắt dự án.",
+    "themeToggleLight": "Chuyển nền sáng",
+    "themeToggleDark": "Chuyển nền tối",
+    "schemaDescription": "Kĩ sư lập trình Full Stack và AI tại Hà Nội, từng làm việc tại Zotek8 và Torus Engineering, sẵn sàng hợp tác dự án Web/App/AI."
+  },
+  "heroStats": [
+    {
+      "label": "Chuyên môn",
+      "value": "Full Stack · AI · Mobile"
+    },
+    {
+      "label": "Địa điểm",
+      "value": "Quận Bắc Từ Liêm, Hà Nội"
+    },
+    {
+      "label": "Ngôn ngữ",
+      "value": "Tiếng Việt · Tiếng Anh (B1)"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Zotek8",
+      "period": "08/2023 – 01/2025",
+      "role": "Full Stack Developer",
+      "summary": "Xây dựng các sản phẩm SaaS trong y tế, quản trị mạng xã hội và bản đồ dữ liệu cộng đồng.",
+      "projects": [
+        {
+          "name": "Kurua",
+          "description": "Web App cho bệnh viện/phòng khám quản lý sức khỏe xương khớp, theo dõi hồ sơ bệnh nhân.",
+          "stack": "Laravel · Vue.js · React Native"
+        },
+        {
+          "name": "SNS Management",
+          "description": "Hệ thống lên lịch nội dung, quảng cáo và báo cáo dữ liệu cho Facebook, Instagram, X, TikTok.",
+          "stack": "Laravel · Vue.js · MySQL"
+        },
+        {
+          "name": "Will Watch",
+          "description": "Bản đồ động vật dựa trên dữ liệu đóng góp thời gian thực từ cộng đồng.",
+          "stack": "Flutter · Next.js · Firebase"
+        }
+      ]
+    },
+    {
+      "company": "Torus Engineering",
+      "period": "05/2022 – 05/2023",
+      "role": "Front End Engineer",
+      "summary": "Thiết kế công cụ Annotation và gói widget AI nhúng cho khách hàng B2B.",
+      "projects": [
+        {
+          "name": "Annotation Tool",
+          "description": "Công cụ gán nhãn ảnh soi da phục vụ training AI trong lĩnh vực làm đẹp.",
+          "stack": "Python Flask · JavaScript · Bootstrap"
+        },
+        {
+          "name": "Belle Widget",
+          "description": "Đóng gói demo AI thành component có thể embed vào web/mobile, hỗ trợ tuỳ biến UI theo brand.",
+          "stack": "Python · .NET · React · React Native"
+        }
+      ]
+    },
+    {
+      "company": "Khoa CNTT – Đại học Điện Lực",
+      "period": "2020 – 2024",
+      "role": "Research & Development",
+      "summary": "Tham gia các đề tài AI/Computer Vision: chấm công khuôn mặt, OCR và tìm kiếm hình ảnh.",
+      "projects": [
+        {
+          "name": "HR Face Attendance",
+          "description": "Hệ thống quản lý nhân sự kết hợp AI Face Matching và dashboard quản trị.",
+          "stack": "Angular · .NET Core · Python · SQL Server"
+        },
+        {
+          "name": "OCR & Image Search",
+          "description": "Website chuyển đổi PDF/ảnh sang text và tìm kiếm hình ảnh đa nền tảng.",
+          "stack": "Python Flask · Tesseract OCR 5"
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "tagline": "Năng lực kỹ thuật",
+    "groups": [
+      {
+        "title": "Web Frontend",
+        "items": ["JavaScript", "Vue.js", "React", "Next.js", "Bootstrap", "Tailwind CSS", "HTML/CSS"]
+      },
+      {
+        "title": "Backend & API",
+        "items": ["PHP Laravel", "Next.js", "Python", ".NET Core", "Node.js"]
+      },
+      {
+        "title": "Mobile & Cross-platform",
+        "items": ["React Native", "Flutter"]
+      },
+      {
+        "title": "Cơ sở dữ liệu",
+        "items": ["PostgreSQL", "MySQL", "SQLite", "Firebase", "MongoDB"]
+      },
+      {
+        "title": "AI & Data",
+        "items": ["Python", "YOLO", "TensorFlow", "Keras", "PyTorch", "Tesseract OCR", "Sklearn"]
+      },
+      {
+        "title": "DevOps & Cloud",
+        "items": ["AWS EC2/S3", "Google Cloud", "Docker", "GitHub Actions"]
+      }
+    ]
+  },
+  "education": {
+    "achievements": [
+      {
+        "title": "Giải Ba Thử Thách Đổi Mới 2022",
+        "description": "Hệ thống quản lý nhân sự tích hợp chấm công khuôn mặt – Khoa CNTT Đại học Điện Lực."
+      },
+      {
+        "title": "GPA 3.61 / 8.42",
+        "description": "Tốt nghiệp Xuất Sắc ngành CNTT, chuyên ngành AI & Computer Vision."
+      },
+      {
+        "title": "Tiếng Anh B1",
+        "description": "Đọc hiểu tài liệu tốt, giao tiếp kỹ thuật ở mức chuyên môn cơ bản."
+      }
+    ]
+  }
+}
+

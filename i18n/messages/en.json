@@ -1,0 +1,145 @@
+{
+  "ui": {
+    "heroTagline": "SangLe • SangLee • LE QUANG SANG",
+    "heroTitle": "Full Stack & AI Engineer based in Hanoi",
+    "heroDescription": "I'm Le Quang Sang (SangLe/SangLee), 24, passionate about building web/mobile products, shipping AI features and refining UX for international teams.",
+    "primaryCta": "Book a discovery call",
+    "githubCta": "View GitHub portfolio",
+    "experienceTagline": "Highlighted experience",
+    "experienceHeading": "4+ years shipping healthcare, social & AI products",
+    "experienceIntro": "From full stack delivery to computer vision R&D, I optimise for reliability, security and growth while collaborating closely with product & marketing stakeholders.",
+    "skillsTagline": "Technical range",
+    "skillsHeading": "Flexible stack across Web, Mobile, AI & DevOps",
+    "skillsIntro": "Clean code, CI/CD discipline and pragmatic testing ensure every build is scalable and maintainable.",
+    "educationTagline": "Education & achievements",
+    "educationHeading": "B.Eng in Computer Science – AI & Computer Vision",
+    "educationIntro": "Electric Power University (2019 – 2024), GPA 3.61. Researched OCR, visual search and community-focused products.",
+    "calloutTitle": "Ready to collaborate?",
+    "calloutDescription": "I enjoy partnering with founders and product leads who value fast feedback loops, measurable outcomes and transparent communication.",
+    "calloutInterests": "I read one book every month and run three times a week to stay sharp and disciplined when driving delivery.",
+    "themeToggleLight": "Switch to light mode",
+    "themeToggleDark": "Switch to dark mode",
+    "schemaDescription": "Full Stack and AI engineer from Hanoi with experience at Zotek8 and Torus Engineering, open to global web, mobile and AI collaborations."
+  },
+  "heroStats": [
+    {
+      "label": "Focus",
+      "value": "Full Stack · AI · Mobile"
+    },
+    {
+      "label": "Location",
+      "value": "Bac Tu Liem District, Hanoi"
+    },
+    {
+      "label": "Languages",
+      "value": "Vietnamese · English (B1)"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Zotek8",
+      "period": "Aug 2023 – Jan 2025",
+      "role": "Full Stack Developer",
+      "summary": "Built SaaS products for healthcare, social media management and crowdsourced wildlife maps.",
+      "projects": [
+        {
+          "name": "Kurua",
+          "description": "Hospital/clinic web app that monitors bone health records and patient journeys.",
+          "stack": "Laravel · Vue.js · React Native"
+        },
+        {
+          "name": "SNS Management",
+          "description": "Unified UI to schedule content, ads and analytics for Facebook, Instagram, X and TikTok.",
+          "stack": "Laravel · Vue.js · MySQL"
+        },
+        {
+          "name": "Will Watch",
+          "description": "Crowdsourced wildlife map that visualizes community-contributed observations in real time.",
+          "stack": "Flutter · Next.js · Firebase"
+        }
+      ]
+    },
+    {
+      "company": "Torus Engineering",
+      "period": "May 2022 – May 2023",
+      "role": "Front End Engineer",
+      "summary": "Designed annotation tools and embeddable AI widgets for B2B clients.",
+      "projects": [
+        {
+          "name": "Annotation Tool",
+          "description": "Skin-analysis labeling tool that produces datasets for cosmetic AI training.",
+          "stack": "Python Flask · JavaScript · Bootstrap"
+        },
+        {
+          "name": "Belle Widget",
+          "description": "Packaged AI demos into configurable web/mobile components for partner integrations.",
+          "stack": "Python · .NET · React · React Native"
+        }
+      ]
+    },
+    {
+      "company": "Faculty of IT – Electric Power University",
+      "period": "2020 – 2024",
+      "role": "Research & Development",
+      "summary": "Explored AI/Computer Vision topics: facial attendance, OCR and multimodal search.",
+      "projects": [
+        {
+          "name": "HR Face Attendance",
+          "description": "Attendance & HR platform powered by AI face matching and administrative dashboards.",
+          "stack": "Angular · .NET Core · Python · SQL Server"
+        },
+        {
+          "name": "OCR & Image Search",
+          "description": "Web service that converts PDF/images to text and performs visual search across devices.",
+          "stack": "Python Flask · Tesseract OCR 5"
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "tagline": "Technical range",
+    "groups": [
+      {
+        "title": "Web Frontend",
+        "items": ["JavaScript", "Vue.js", "React", "Next.js", "Bootstrap", "Tailwind CSS", "HTML/CSS"]
+      },
+      {
+        "title": "Backend & API",
+        "items": ["PHP Laravel", "Next.js", "Python", ".NET Core", "Node.js"]
+      },
+      {
+        "title": "Mobile & Cross-platform",
+        "items": ["React Native", "Flutter"]
+      },
+      {
+        "title": "Databases",
+        "items": ["PostgreSQL", "MySQL", "SQLite", "Firebase", "MongoDB"]
+      },
+      {
+        "title": "AI & Data",
+        "items": ["Python", "YOLO", "TensorFlow", "Keras", "PyTorch", "Tesseract OCR", "Sklearn"]
+      },
+      {
+        "title": "DevOps & Cloud",
+        "items": ["AWS EC2/S3", "Google Cloud", "Docker", "GitHub Actions"]
+      }
+    ]
+  },
+  "education": {
+    "achievements": [
+      {
+        "title": "3rd Prize – Innovation Challenge 2022",
+        "description": "Face-recognition based HR attendance system hosted by the Faculty of IT, EPU."
+      },
+      {
+        "title": "GPA 3.61 / 8.42",
+        "description": "Graduated with Distinction in Computer Science – AI & Computer Vision."
+      },
+      {
+        "title": "English B1",
+        "description": "Confident with documentation, capable of day-to-day technical conversations."
+      }
+    ]
+  }
+}
+
