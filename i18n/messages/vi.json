@@ -19,6 +19,12 @@
     "calloutInterests": "Tôi yêu thích đọc sách (1 quyển/tháng) và chạy bộ 3 buổi mỗi tuần để giữ sự tập trung và sự bền bỉ khi dẫn dắt dự án.",
     "themeToggleLight": "Chuyển nền sáng",
     "themeToggleDark": "Chuyển nền tối",
+    "languageToggleAria": "Chuyển sang {{language}}",
+    "languageNames": {
+      "vi": "Tiếng Việt",
+      "en": "Tiếng Anh"
+    },
+    "themeToggleAria": "Đổi chế độ sáng/tối",
     "schemaDescription": "Kĩ sư lập trình Full Stack và AI tại Hà Nội, từng làm việc tại Zotek8 và Torus Engineering, sẵn sàng hợp tác dự án Web/App/AI."
   },
   "heroStats": [

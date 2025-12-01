@@ -47,12 +47,6 @@ export const metadata: Metadata = {
       },
     ],
     locale: "vi_VN",
-    profile: {
-      firstName: "Sang",
-      lastName: "Le Quang",
-      username: "SangLe",
-      gender: "male",
-    },
   },
   twitter: {
     card: "summary_large_image",

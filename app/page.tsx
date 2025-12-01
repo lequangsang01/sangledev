@@ -37,9 +37,9 @@ const locales: Record<Language, LocaleMessages> = {
   en: enMessages,
 };
 
-const languageButtons: { id: Language; label: string; icon: string }[] = [
-  { id: 'vi', label: 'VI', icon: '🇻🇳' },
-  { id: 'en', label: 'EN', icon: '🇺🇸' },
+const languageButtons: { id: Language; icon: string }[] = [
+  { id: 'vi', icon: '🇻🇳' },
+  { id: 'en', icon: '🇺🇸' },
 ];
 
 const themeConfig: Record<ThemeMode, ThemeConfig> = {
@@ -145,6 +145,8 @@ export default function Home() {
           >
             {languageButtons.map((option) => {
               const active = option.id === language;
+              const languageKey = `languageNames.${option.id}` as Parameters<typeof t>[0];
+              const languageLabel = t(languageKey);
               return (
                 <button
                   key={option.id}
@@ -154,7 +156,9 @@ export default function Home() {
                   className={`flex h-8 w-8 items-center justify-center rounded-full text-base transition ${
                     active ? themeClasses.controlActive : themeClasses.controlInactive
                   }`}
-                  aria-label={`Switch to ${option.label}`}
+                  aria-label={t('languageToggleAria', {
+                    language: languageLabel,
+                  })}
                 >
                   <span className="text-lg" role="img" aria-hidden>
                     {option.icon}
@@ -167,7 +171,7 @@ export default function Home() {
             type="button"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             className={`flex h-9 w-9 items-center justify-center rounded-full border ${themeClasses.controlBorder} ${themeClasses.controlBg} text-base transition hover:opacity-80`}
-            aria-label="Toggle theme"
+            aria-label={t('themeToggleAria')}
           >
             <span role="img" aria-hidden>
               {theme === 'dark' ? '🌞' : '🌙'}

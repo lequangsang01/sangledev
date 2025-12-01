@@ -19,6 +19,12 @@
     "calloutInterests": "I read one book every month and run three times a week to stay sharp and disciplined when driving delivery.",
     "themeToggleLight": "Switch to light mode",
     "themeToggleDark": "Switch to dark mode",
+    "languageToggleAria": "Switch to {{language}}",
+    "languageNames": {
+      "vi": "Vietnamese",
+      "en": "English"
+    },
+    "themeToggleAria": "Toggle theme",
     "schemaDescription": "Full Stack and AI engineer from Hanoi with experience at Zotek8 and Torus Engineering, open to global web, mobile and AI collaborations."
   },
   "heroStats": [
