@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import Image from 'next/image';
 import Script from 'next/script';
 import { createTranslator } from 'next-intl';
 
@@ -94,6 +95,7 @@ export default function Home() {
   );
 
   const themeClasses = themeConfig[theme];
+  const portraitSrc = theme === 'dark' ? '/sangle-dark.jpg' : '/sangle-light.jpg';
 
   const structuredData = useMemo(
     () => ({
@@ -180,43 +182,57 @@ export default function Home() {
         </div>
 
         <header className={`rounded-3xl border ${themeClasses.heroCard} p-8 backdrop-blur`}>
-          <p className={`text-xs uppercase tracking-[0.4em] ${themeClasses.accentText}`}>
-            {t('heroTagline')}
-          </p>
-          <h1 className="mt-4 text-4xl font-semibold leading-tight md:text-5xl">
-            {t('heroTitle')}
-          </h1>
-          <p className={`mt-4 text-lg ${themeClasses.subtleText}`}>
-            {t('heroDescription')}
-          </p>
-          <div className="mt-6 flex flex-wrap gap-4">
-            <a
-              href="mailto:quangsangle.hn@gmail.com"
-              className="inline-flex items-center justify-center rounded-full bg-emerald-400 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-slate-950 transition hover:bg-emerald-300"
-            >
-              {t('primaryCta')}
-            </a>
-            <a
-              href="https://github.com/lequangsang01"
-              target="_blank"
-              rel="noreferrer"
-              className={`inline-flex items-center justify-center rounded-full border px-6 py-3 text-sm font-semibold uppercase tracking-wide transition ${themeClasses.sectionBorder} ${
-                theme === 'dark'
-                  ? 'text-white hover:text-emerald-200'
-                  : 'text-slate-900 hover:text-emerald-700'
-              }`}
-            >
-              {t('githubCta')}
-            </a>
-          </div>
-          <dl className="mt-8 grid gap-6 text-sm md:grid-cols-3">
-            {heroStats.map((stat) => (
-              <div key={`${stat.label}-${stat.value}`}>
-                <dt className="font-semibold">{stat.label}</dt>
-                <dd className={themeClasses.subtleText}>{stat.value}</dd>
+          <div className="flex flex-col gap-8 lg:flex-row lg:items-center">
+            <div className="flex-1">
+              <p className={`text-xs uppercase tracking-[0.4em] ${themeClasses.accentText}`}>
+                {t('heroTagline')}
+              </p>
+              <h1 className="mt-4 text-4xl font-semibold leading-tight md:text-5xl">
+                {t('heroTitle')}
+              </h1>
+              <p className={`mt-4 text-lg ${themeClasses.subtleText}`}>
+                {t('heroDescription')}
+              </p>
+              <div className="mt-6 flex flex-wrap gap-4">
+                <a
+                  href="mailto:quangsangle.hn@gmail.com"
+                  className="inline-flex items-center justify-center rounded-full bg-emerald-400 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-slate-950 transition hover:bg-emerald-300"
+                >
+                  {t('primaryCta')}
+          </a>
+          <a
+                  href="https://github.com/lequangsang01"
+            target="_blank"
+                  rel="noreferrer"
+                  className={`inline-flex items-center justify-center rounded-full border px-6 py-3 text-sm font-semibold uppercase tracking-wide transition ${themeClasses.sectionBorder} ${
+                    theme === 'dark'
+                      ? 'text-white hover:text-emerald-200'
+                      : 'text-slate-900 hover:text-emerald-700'
+                  }`}
+                >
+                  {t('githubCta')}
+                </a>
               </div>
-            ))}
-          </dl>
+              <dl className="mt-8 grid gap-6 text-sm md:grid-cols-3">
+                {heroStats.map((stat) => (
+                  <div key={`${stat.label}-${stat.value}`}>
+                    <dt className="font-semibold">{stat.label}</dt>
+                    <dd className={themeClasses.subtleText}>{stat.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <figure className="flex w-full justify-center lg:w-auto">
+              <Image
+                src={portraitSrc}
+                alt={t('heroPortraitAlt')}
+                width={360}
+                height={420}
+                priority
+                className="h-auto w-64 rounded-2xl border border-white/10 object-cover shadow-2xl shadow-emerald-900/30 lg:w-72"
+              />
+            </figure>
+          </div>
         </header>
 
         <SectionShell
@@ -300,8 +316,8 @@ export default function Home() {
                 className="rounded-full bg-white px-5 py-2 font-semibold text-slate-900 transition hover:bg-slate-200"
               >
                 quangsangle.hn@gmail.com
-              </a>
-            </div>
+          </a>
+        </div>
           </div>
         </SectionShell>
       </main>
