@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     "kĩ sư lập trình",
     "full stack developer hà nội",
     "ai engineer vietnam",
+    "sangledev",
+    "sangle.dev portfolio",
   ],
   alternates: {
     canonical: "/",
