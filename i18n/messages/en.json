@@ -2,9 +2,10 @@
   "ui": {
     "heroTagline": "SangLe • SangLee • LE QUANG SANG",
     "heroTitle": "Full Stack & AI Engineer based in Hanoi",
-    "heroDescription": "I'm Le Quang Sang (SangLe/SangLee), 24, passionate about building web/mobile products, shipping AI features and refining UX for international teams.",
-    "primaryCta": "Book a discovery call",
-    "githubCta": "View GitHub portfolio",
+    "heroDescription": "I'm Le Quang Sang, a 24-year-old full stack and AI engineer based, passionate about building web/mobile products, shipping AI features and refining UX for international teams.",
+    "primaryCta": "Email me",
+    "linkedinCta": "LinkedIn",
+    "githubCta": "GitHub Portfolio",
     "experienceTagline": "Highlighted experience",
     "experienceHeading": "4+ years shipping healthcare, social & AI products",
     "experienceIntro": "From full stack delivery to computer vision R&D, I optimise for reliability, security and growth while collaborating closely with product & marketing stakeholders.",
@@ -26,7 +27,7 @@
     },
     "themeToggleAria": "Toggle theme",
     "heroPortraitAlt": "Portrait of Le Quang Sang",
-    "schemaDescription": "Full Stack and AI engineer from Hanoi with experience at Zotek8 and Torus Engineering, open to global web, mobile and AI collaborations."
+    "schemaDescription": "Full Stack and AI engineer with experience at Zotek8 and Torus Engineering, open to global web, mobile and AI collaborations."
   },
   "heroStats": [
     {

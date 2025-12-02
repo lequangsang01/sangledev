@@ -14,22 +14,25 @@ const geistMono = Geist_Mono({
 
 const title = "Lê Quang Sang | Kĩ sư lập trình Full Stack SangLe";
 const description =
-  "Trang giới thiệu chính thức của Lê Quang Sang (SangLe / SangLee) - Kĩ sư lập trình Full Stack & AI tại Hà Nội, sẵn sàng hợp tác các dự án Web, Mobile và AI.";
+  "Trang giới thiệu chính thức của Lê Quang Sang (SangLeDEV / SangLeeDEV) - Kĩ sư lập trình Full Stack & AI tại Hà Nội, sẵn sàng hợp tác các dự án Web, Mobile và AI.";
 
 export const metadata: Metadata = {
   title,
   description,
   keywords: [
+    "SangLeDEV",
+    "SangLeeDEV",
+    "sangledev",
     "Lê Quang Sang",
     "Le Quang Sang",
     "SangLe",
     "SangLee",
     "LE QUANG SANG",
-    "kĩ sư lập trình",
+    "full stack developer",
     "full stack developer hà nội",
     "ai engineer vietnam",
-    "sangledev",
     "sangle.dev portfolio",
+    "kĩ sư lập trình",
   ],
   alternates: {
     canonical: "/",

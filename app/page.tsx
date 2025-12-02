@@ -78,8 +78,35 @@ const themeConfig: Record<ThemeMode, ThemeConfig> = {
   },
 };
 
+// Function to detect if user is in Vietnam based on timezone
+function detectLanguageFromTimezone(): Language {
+  if (typeof window === 'undefined') {
+    return 'vi'; // Default for SSR
+  }
+  
+  try {
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    // Vietnam timezones
+    const vietnamTimezones = ['Asia/Ho_Chi_Minh', 'Asia/Hanoi'];
+    
+    if (vietnamTimezones.includes(timezone)) {
+      return 'vi';
+    }
+    
+    // Also check browser language as fallback
+    const browserLang = navigator.language || navigator.languages?.[0] || '';
+    if (browserLang.startsWith('vi')) {
+      return 'vi';
+    }
+    
+    return 'en';
+  } catch {
+    return 'en'; // Default to English if detection fails
+  }
+}
+
 export default function Home() {
-  const [language, setLanguage] = useState<Language>('vi');
+  const [language, setLanguage] = useState<Language>(() => detectLanguageFromTimezone());
   const [theme, setTheme] = useState<ThemeMode>('dark');
 
   const localeData = locales[language];
@@ -102,7 +129,7 @@ export default function Home() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Lê Quang Sang',
-      alternateName: ['SangLe', 'SangLee', 'LE QUANG SANG'],
+      alternateName: ['SangLeDEV', 'SangLeeDEV', 'LE QUANG SANG'],
       jobTitle: 'Full Stack & AI Engineer',
       description: t('schemaDescription'),
       email: 'mailto:quangsangle.hn@gmail.com',
@@ -200,6 +227,18 @@ export default function Home() {
                 >
                   {t('primaryCta')}
           </a>
+          <a
+                  href="https://www.linkedin.com/in/sang-l%C3%AA-7a18a01a1/"
+            target="_blank"
+                  rel="noreferrer"
+                  className={`inline-flex items-center justify-center rounded-full border px-6 py-3 text-sm font-semibold uppercase tracking-wide transition ${themeClasses.sectionBorder} ${
+                    theme === 'dark'
+                      ? 'text-white hover:text-emerald-200'
+                      : 'text-slate-900 hover:text-emerald-700'
+                  }`}
+                >
+                  {t('linkedinCta')}
+                </a>
           <a
                   href="https://github.com/lequangsang01"
             target="_blank"
