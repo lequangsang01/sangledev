@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Image from 'next/image';
 import Script from 'next/script';
 import { createTranslator } from 'next-intl';
@@ -164,6 +164,32 @@ export default function Home() {
     }),
     [t]
   );
+
+  // Track visitor when component mounts
+  useEffect(() => {
+    const trackVisitor = async () => {
+      try {
+        const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        const path = window.location.pathname;
+
+        await fetch('/api/visitors', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            timezone,
+            path,
+          }),
+        });
+      } catch (error) {
+        // Silently fail - don't interrupt user experience
+        console.error('Failed to track visitor:', error);
+      }
+    };
+
+    trackVisitor();
+  }, []);
 
   return (
     <div className={`min-h-screen bg-gradient-to-br ${themeClasses.gradient}`}>
