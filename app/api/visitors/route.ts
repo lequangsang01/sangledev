@@ -27,9 +27,19 @@ export async function POST(request: NextRequest) {
     const language = request.headers.get('accept-language') || 'unknown';
     
     // Get body data if sent from client
-    const body = await request.json().catch(() => ({}));
-    const timezone = body.timezone || 'unknown';
-    const path = body.path || '/';
+    let body: any = {};
+    try {
+      const contentType = request.headers.get('content-type');
+      if (contentType?.includes('application/json')) {
+        body = await request.json();
+      }
+    } catch (error) {
+      // If body parsing fails, use empty object
+      console.warn('Failed to parse request body:', error);
+    }
+    
+    const timezone = body?.timezone || 'unknown';
+    const path = body?.path || '/';
 
     const visitorData: VisitorData = {
       ip: ip.split(',')[0].trim(), // Get first IP if multiple

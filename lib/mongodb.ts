@@ -1,11 +1,28 @@
-import { MongoClient, Db } from 'mongodb';
+import { MongoClient, Db, MongoClientOptions } from 'mongodb';
 
 if (!process.env.MONGODB_URI) {
   throw new Error('Please add your Mongo URI to .env.local');
 }
 
-const uri: string = process.env.MONGODB_URI;
-const options = {};
+// Sanitize and validate connection string
+let uri: string = process.env.MONGODB_URI.trim();
+
+// Ensure connection string has proper format
+if (!uri.startsWith('mongodb://') && !uri.startsWith('mongodb+srv://')) {
+  throw new Error('Invalid MongoDB connection string format');
+}
+
+// MongoDB connection options - simplified to avoid conflicts
+const options: MongoClientOptions = {
+  // Connection pool options
+  maxPoolSize: 10,
+  // Retry options
+  retryWrites: true,
+  // Timeouts
+  serverSelectionTimeoutMS: 10000,
+  socketTimeoutMS: 45000,
+  connectTimeoutMS: 10000,
+};
 
 let client: MongoClient;
 let clientPromise: Promise<MongoClient>;
