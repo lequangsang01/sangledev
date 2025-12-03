@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     type: "profile",
     title,
     description,
-    url: "https://sangle.dev",
+    url: "https://sangledev.vercel.app",
     siteName: "Hồ sơ Lê Quang Sang",
     images: [
       {
