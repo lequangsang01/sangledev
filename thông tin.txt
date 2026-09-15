@@ -1,0 +1,197 @@
+LÊ QUANG SANG
+
+Kĩ Sư Lập Trình
+
+Số điện thoại:
+0329004844
+
+Email:
+quangsangle.hn@gmail.com
+
+Ngày sinh:
+10/03/2001
+
+Website:
+https://sangle.online
+
+Địa chỉ:
+Kim Bảng, Ninh Bình
+
+Mục tiêu nghề nghiệp
+Luôn sẵn sàng học hỏi và phát triển bản thân khám phá những lĩnh vực mới, được chinh phục những kiến thức chuyên môn mới và đạt được những vị trí cao hơn là mục tiêu tôi luôn hướng đến.
+
+Kỹ năng
+Web
+
+Frontend:JavaScript,Vuejs, ReactJS, NextJS ,Bootstrap, Tailwindcss Html, CSS.
+
+Backend: Php Laravel, NextJS, Python.
+
+App
+
+React Native, Flutter.
+
+Cơ sở dữ liệu
+
+SQL: PostgreSQL, MySQL, SQLite, ..
+
+NoSQL: Firebase, MongoDB,..
+
+AI
+
+Sử dụng open source AI (Llama, Deepseek,..) viết api, ứng dụng liên quan.
+
+Python, Yolo, TensorFlow, Keras, Sklearn, PyTorch để xây dựng model AI.
+
+Sử dụng và setup  các AI agent như Hermes-agent, N8n,..
+
+DevOps
+
+Sử dụng cơ bản AWS như ec2, s3 và các cloud platform khác.
+
+Google Cloud Console, Docker, GitHub, Cloudflare,..
+
+API Social
+
+Làm việc API social của FaceBook, Instagram, X, Tiktok.
+
+Tiếng Anh
+
+Chuẩn B1
+
+Đọc hiểu tài liệu, có khả năng giao tiếp, trao đổi ở mức cơ bản.
+
+Kinh nghiệm làm việc
+
+08/2023
+
+-
+
+Hiện tại
+
+Zotek8
+
+Vị trí làm việc: Lập trình viên Full Stack
+
+
+
+Meeting Transcription Nagase
+
+Mô tả dự án: Ứng dụng ghi âm và tự động chuyển đổi giọng nói thành văn bản tạo biên bản cuộc họp bằng AI (tích hợp đồng bộ hóa dữ liệu với Salesforce).
+Công nghệ sử dụng: Flutter (Dart), AWS Amplify (Cognito), Firebase (FCM), SQLite, Salesforce API.
+
+
+InvoiceShelf
+
+Mô tả dự án: Ứng dụng quản lý hóa đơn mã nguồn mở dành cho cá nhân và doanh nghiệp nhỏ, hỗ trợ tạo và quản lý hóa đơn, theo dõi thanh toán, xuất hóa đơn PDF, tạo mã QR thanh toán, sao lưu dữ liệu tự động, phân quyền người dùng và tích hợp các cổng thanh toán trực tuyến nhằm tối ưu quy trình quản lý tài chính.
+Công nghệ sử dụng: Laravel, Vite, Tailwind CSS, MySQL, RESTful API, DomPDF, QR Code, Laravel Queue, Laravel Scheduler, Docker.
+
+
+Adstart
+
+ Mô tả dự án:  Hệ thống quản lý tập trung các chiến dịch quảng cáo đa nền tảng, hỗ trợ quản lý Facebook Ads, gợi ý Google Ads, liên kết URL quảng cáo, bộ lọc từ khóa cấm (NG Keywords), quản lý tài khoản người dùng và đối tác. Ngoài ra, hệ thống còn theo dõi lịch sử nạp tiền/thanh toán, xuất báo cáo kế toán và quản trị các chức năng vận hành như FAQ, Tag và thông báo.
+Công nghệ sử dụng: Laravel (PHP), MySQL, Bootstrap/Tailwind CSS, JavaScript, RESTful API, Facebook Marketing API, Google Ads API, Redis, Docker.
+
+
+Hệ Thống Quản Lý Mua Hàng Doanh Nghiệp Sản Xuất (erp procurement)
+
+Vị trí ​lập trình viên Full Stack
+Mô tả dự án: Hệ thống quản lý mua hàng doanh nghiệp sản xuất (xử lý nghiệp vụ từ yêu cầu mua hàng, báo giá, đơn mua hàng đến nhập kho và hóa đơn,..).
+Công nghệ sử dụng: Vue 3 (Vite + Tailwind CSS), Django (DRF), MSSQL, Redis, Celery, Docker.
+
+
+Camera-count
+
+Mô tả dự án: Hệ thống AI đếm pallet đa góc (3 camera) sử dụng hình học 3D để dự đoán thể tích và đếm số lượng kiện hàng bị che khuất trong kho bãi.
+Công nghệ sử dụng: Streamlit, YOLOv11 (Ultralytics), OpenCV, Open3D, Plotly, PyTorch, Python.
+
+
+Phát triển dự án Will Watch
+
+Mô tả dự án: Tạo bản đồ động vật dựa vào dữ liệu người dùng đóng góp phân tích bằng AI và người dùng (phát triển web app).
+Công nghệ sử dụng: Flutter , NextJS, Firebase.
+​
+
+​Phát triển dự án Kurua
+
+Mô tả dự án: Web App phục vụ cho bệnh viện phòng khám theo dõi sức khỏe, sức khỏe sương khớp cho bệnh nhân.
+Công nghệ sử dụng: Php Laravel, VueJs, React Native, Docker .
+
+
+
+
+05/2022
+
+-
+
+05/2022
+
+Torus Engineering
+
+Vị trí làm việc:  Lập trình viên Front End
+
+Phát triển Annotation Tool
+
+Mô tả dự án: Công cụ gán nhãn chấm điểm cho ảnh soi da. Dữ liệu đầu ra sử dụng training AI.
+Công nghệ sử dụng : Python Flask, JavaScript, Bootstrap.
+Phát triển Belle Widget
+
+Mô tả dự án: Đóng gói các AI demo thành các component (JS) để cóthể embedded vào website, mobile app. Với cách thức đóng gói thành các component có thể bán cho khách hàngB2B như API có thể cấu hình giao diện theo yêu cầu.
+Công nghệ sử dụng: Python , .NET, React, React Native.
+2020
+
+-
+
+2024
+
+Phòng Lab Khoa CNTT
+
+Tham gia nghiên cứu, xây dựng các phần mềm tại khoa Công nghệ thông tin Trường Đại Học Điện Lực:
+
+Hệ thống quản lý nhân sự tích hợpchấm công bằng khuôn mặt
+
+ Mô tả dự án: Quản lý user, quản lý nhân viên . Sử dụngcông nghệ AI Face matching nhận dạng khuôn mặt gửi ảnhchấm công lên Web.
+Công nghệ sử dụng: Angular, .Net Core, Python, C++, SQL Server.
+﻿Website OCR chuyển đổi Image, PDF sang Text, Web-App mobile tìm kiếm hình ảnh
+
+ Mô tả dự án: Website chuyển đổi ảnh, pdf sang chữ.
+Công nghệ sử dụng: Python Flask, Tesseract OCR 5.
+Học vấn
+
+08/2019
+
+-
+
+04/2024
+
+Tốt nghiêp kĩ sư trường Đại học Điện Lực.
+
+
+
+Kĩ sư: Công Nghệ Thông Tin.
+
+Chuyên ngành: Trí Tuệ Nhân Tạo Và Thị Giác Máy Tính.
+
+Hạng tốt nghiệp: Xuất Sắc.
+
+Điểm GPA: 3.61.
+
+Hoạt động
+06/2022
+
+-
+
+06/2022
+
+Cuộc thi Thử Thách Đổi Mới
+
+Thử Thách Đổi Mới - Khoa CNTT Đại Học Điện Lực Tổ Chức
+
+Đạt giải ba ( đồng đội) sản phẩm Hệ Thống Quản Lý Nhân Sự Tích Hợp Chẫm Công Bằng Nhận Diện Khuôn Mặt.
+
+Sở thích
+Chơi game
+
+Tìm hiểu công nghệ mới liên quan đến AI, hệ thống máy tính.
+
+Chay bộ
