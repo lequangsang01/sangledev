@@ -1470,6 +1470,12 @@ body {
   line-height: 1.5;
 }
 
+.modal-doc-desc:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* Modal Multi-Page Gallery Navigation */
 .modal-nav-group {
   display: inline-flex;

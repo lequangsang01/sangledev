@@ -317,7 +317,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const footerCopyright = document.getElementById('footer-copyright');
     const footerPrintNote = document.getElementById('footer-print-note');
     if (footerCopyright) footerCopyright.textContent = data.footer.copyright;
-    if (footerPrintNote) footerPrintNote.textContent = data.footer.printNote;
+    if (footerPrintNote) {
+      if (data.footer.printNote) {
+        footerPrintNote.textContent = data.footer.printNote;
+        footerPrintNote.style.display = 'block';
+      } else {
+        footerPrintNote.textContent = '';
+        footerPrintNote.style.display = 'none';
+      }
+    }
   }
 
   /**
@@ -461,7 +469,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('modal-doc-img').src = doc.src;
     document.getElementById('modal-doc-title').textContent = doc.title;
     document.getElementById('modal-doc-badge').textContent = doc.badge || currentMeta.verifiedBadge || "Verified";
-    document.getElementById('modal-doc-desc').textContent = doc.desc || "";
+    
+    const descEl = document.getElementById('modal-doc-desc');
+    if (descEl) {
+      descEl.textContent = doc.desc || "";
+      descEl.style.display = doc.desc ? "block" : "none";
+    }
 
     const counter = document.getElementById('modal-counter');
     if (counter) {
