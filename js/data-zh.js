@@ -36,7 +36,7 @@ cvData.zh = {
     linkedin: "https://linkedin.com"
   },
   metrics: [
-    { value: "3+", label: "年软件研发经验", desc: "涵盖架构、Web 全栈与计算机视觉" },
+    { value: "4+", label: "年软件研发经验", desc: "涵盖架构、Web 全栈与计算机视觉" },
     { value: "10+", label: "成功交付系统", desc: "企业 ERP、3D 视觉、CRM、金融 SaaS" },
     { value: "3.61", label: "工学学士绩点 (GPA)", desc: "越南电力大学优秀工学学士毕业生" },
     { value: "100%", label: "工程交付承诺", desc: "高并发、严守 AppSec 安全与 Clean Code" }

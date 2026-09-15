@@ -36,7 +36,7 @@ cvData.vi = {
     linkedin: "https://linkedin.com"
   },
   metrics: [
-    { value: "3+", label: "Năm kinh nghiệm", desc: "Software Engineering, Web & AI" },
+    { value: "4+", label: "Năm kinh nghiệm", desc: "Software Engineering, Web & AI" },
     { value: "10+", label: "Hệ thống bàn giao", desc: "ERP, 3D Vision, CRM, FinTech" },
     { value: "3.61", label: "GPA Tốt nghiệp", desc: "Kỹ sư Xuất sắc ĐH Điện Lực" },
     { value: "100%", label: "Cam kết kỹ thuật", desc: "Hiệu năng cao, bảo mật & Clean Code" }
@@ -197,7 +197,7 @@ cvData.vi = {
         overview: "Trực tiếp nghiên cứu kiến trúc, phát triển và vận hành các sản phẩm phần mềm độc lập phục vụ cộng đồng, đạt chuẩn kỹ thuật cao về bảo mật Client-Side, tối ưu AI SEO / GEO First và Trí tuệ Nhân tạo thời gian thực.",
         projects: [
           {
-            name: "OmniKit Web Tool (Suite 53+ Công Cụ Trực Tuyến Client-Side)",
+            name: "OmniKit Web Tool (Suite 54+ Công Cụ Trực Tuyến Client-Side)",
             category: "fullstack",
             tag: "Client-Side Suite / AI SEO",
             liveUrl: "https://www.omnikit.online",

@@ -36,7 +36,7 @@ cvData.en = {
     linkedin: "https://linkedin.com"
   },
   metrics: [
-    { value: "3+", label: "Years of Experience", desc: "Software Engineering, Web & AI" },
+    { value: "4+", label: "Years of Experience", desc: "Software Engineering, Web & AI" },
     { value: "10+", label: "Production Systems", desc: "ERP, 3D Vision, CRM, FinTech" },
     { value: "3.61", label: "Graduation GPA", desc: "Summa Cum Laude / High Distinction" },
     { value: "100%", label: "Engineering Standard", desc: "Clean Code, Security & Performance" }
@@ -197,7 +197,7 @@ cvData.en = {
         overview: "Architecting, developing, and operating independent production-grade software applications, demonstrating deep engineering capabilities across full-stack architecture, privacy-first client-side systems, cutting-edge AI SEO, and edge AI.",
         projects: [
           {
-            name: "OmniKit Web Tool (53+ Client-Side Online Utility Suite)",
+            name: "OmniKit Web Tool (54+ Client-Side Online Utility Suite)",
             category: "fullstack",
             tag: "Client-Side Suite / AI SEO",
             liveUrl: "https://www.omnikit.online",
