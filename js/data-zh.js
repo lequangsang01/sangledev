@@ -1,6 +1,6 @@
 /**
  * Resume Data Store - Chinese (中文)
- * Candidate: 黎光创 (Le Quang Sang) - 软件工程师 (全栈架构、系统工程与应用 AI)
+ * Candidate: 黎光尚 (Le Quang Sang) - 软件工程师 (全栈架构、系统工程与应用 AI)
  */
 var cvData = window.cvData = window.cvData || {};
 
@@ -20,7 +20,7 @@ cvData.zh = {
     verifiedBadge: "官方认证学历资质"
   },
   personal: {
-    name: "黎光创",
+    name: "黎光尚",
     subName: "Le Quang Sang",
     title: "软件工程师 (Software Engineer)",
     tagline: "深耕分布式系统架构、Web 全栈研发、跨平台移动端及工业级端侧 AI 落地 (Applied AI)",
@@ -323,7 +323,7 @@ cvData.zh = {
     ]
   },
   footer: {
-    copyright: "© 2026 黎光创 (Le Quang Sang). 保留所有权利。",
+    copyright: "© 2026 黎光尚 (Le Quang Sang). 保留所有权利。",
     printNote: ""
   }
 };
