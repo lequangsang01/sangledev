@@ -1070,6 +1070,57 @@ body {
   line-height: 1.35;
 }
 
+.project-title-area {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.project-links-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.proj-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.proj-link.live {
+  background-color: var(--success-bg);
+  color: var(--success-color);
+  border: 1px solid var(--success-border);
+}
+
+.proj-link.live:hover {
+  background-color: var(--success-color);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.proj-link.github {
+  background-color: var(--bg-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-medium);
+}
+
+.proj-link.github:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-surface);
+  border-color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
 .project-category-tag {
   font-size: 0.72rem;
   font-weight: 600;

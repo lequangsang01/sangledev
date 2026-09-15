@@ -54,6 +54,43 @@ const cvData = {
       title: "Kinh Nghiệm Kỹ Thuật & Dự Án",
       items: [
         {
+          company: "Dự Án Cá Nhân & Sản Phẩm Độc Lập (Personal Projects)",
+          period: "2024 - Hiện tại",
+          role: "Creator & Lead Software Engineer",
+          location: "Hà Nội, Việt Nam / Online",
+          overview: "Trực tiếp nghiên cứu kiến trúc, phát triển và vận hành các sản phẩm phần mềm độc lập phục vụ cộng đồng, đạt chuẩn kỹ thuật cao về bảo mật Client-Side, tối ưu AI SEO / GEO First và Trí tuệ Nhân tạo thời gian thực.",
+          projects: [
+            {
+              name: "OmniKit Web Tool (Suite 53+ Công Cụ Trực Tuyến Client-Side)",
+              category: "fullstack",
+              tag: "Client-Side Suite / AI SEO",
+              liveUrl: "https://www.omnikit.online",
+              liveText: "omnikit.online",
+              githubUrl: "https://github.com/lequangsang01/web-tool",
+              desc: "Nền tảng tổng hợp 53 công cụ tiện ích trực tuyến hoàn toàn miễn phí (Luyện gõ bàn phím WPM, xử lý Text/Diff, công cụ lập trình viên JSON/JWT/Regex/Hash, nén PDF & ảnh, máy tính tài chính ROI, đo độ tương phản màu WCAG, tạo mã QR động). Kiến trúc xử lý 100% Client-Side trên trình duyệt, không lưu trữ hay gửi dữ liệu về máy chủ, bảo vệ tuyệt đối quyền riêng tư người dùng.",
+              tech: ["Next.js (SSG)", "TypeScript", "Tailwind CSS", "Firebase Auth", "Web Crypto API", "Web Workers", "Schema.org (JSON-LD)"],
+              highlights: [
+                "Kiến trúc AI SEO / GEO First tiên tiến: tối ưu Answer-First, cung cấp file /llms.txt, cấu trúc dữ liệu JSON-LD Schema.org, pre-render SSG 341 trang tĩnh chuẩn SEO.",
+                "Tích hợp Firebase Auth đăng nhập Google/Email mở khóa không giới hạn lượt dùng và hỗ trợ đa ngôn ngữ 5 thứ tiếng (VI, EN, ZH, JA, KO)."
+              ]
+            },
+            {
+              name: "SangLe AI Showcase (Nền Tảng Trình Diễn AI Thời Gian Thực)",
+              category: "ai",
+              tag: "Real-Time Browser AI",
+              liveUrl: "https://sangle-ai.vercel.app/",
+              liveText: "sangle-ai.vercel.app",
+              githubUrl: "https://github.com/lequangsang01/sangle-AI",
+              desc: "Nền tảng trình diễn và thử nghiệm các mô hình AI thời gian thực ngay trên trình duyệt web, khai thác sức mạnh của Google MediaPipe Tasks kết hợp WebAssembly (WASM) và WebGL để tăng tốc phần cứng trực tiếp trên GPU/CPU với độ trễ cực thấp.",
+              tech: ["Next.js 16 (App Router)", "TypeScript", "Google MediaPipe", "WASM", "WebGL", "Tailwind CSS", "Radix UI", "Chart.js"],
+              highlights: [
+                "Tích hợp 15+ mô hình AI đỉnh cao qua 3 nhóm chuyên sâu: Thị giác máy tính (Face Landmarker 468+ điểm mốc cảm xúc, Hand/Gesture tracking, Pose khung xương, Interactive Segmentation tách nền 1-click), Xử lý ngôn ngữ tự nhiên (chạy mô hình LLM Gemma trực tiếp trong trình duyệt), và Phân loại âm thanh môi trường.",
+                "Xử lý hoàn toàn On-Device (Real-time Edge AI) không gửi dữ liệu hình ảnh/âm thanh lên cloud, bảo mật dữ liệu tuyệt đối và tương thích mượt mà giữa Desktop và Mobile."
+              ]
+            }
+          ]
+        },
+        {
           company: "Zotek8",
           period: "08/2023 - Hiện tại",
           role: "Software Engineer (Full Stack & AI)",
@@ -341,6 +378,43 @@ const cvData = {
       title: "Engineering Experience & Systems",
       items: [
         {
+          company: "Independent Products & Open Source (Personal Projects)",
+          period: "2024 - Present",
+          role: "Creator & Lead Software Engineer",
+          location: "Hanoi, Vietnam / Remote",
+          overview: "Architecting, developing, and operating independent production-grade software applications, demonstrating deep engineering capabilities across full-stack architecture, privacy-first client-side systems, cutting-edge AI SEO, and edge AI.",
+          projects: [
+            {
+              name: "OmniKit Web Tool (53+ Client-Side Online Utility Suite)",
+              category: "fullstack",
+              tag: "Client-Side Suite / AI SEO",
+              liveUrl: "https://www.omnikit.online",
+              liveText: "omnikit.online",
+              githubUrl: "https://github.com/lequangsang01/web-tool",
+              desc: "Comprehensive suite of 53 free online utility tools (Typing speed test, text diff checker, developer utilities for JSON/JWT/Regex/Hash, image/PDF processing, financial ROI calculators, WCAG color contrast, QR generator). 100% client-side execution ensuring zero user data ever touches external servers.",
+              tech: ["Next.js (SSG)", "TypeScript", "Tailwind CSS", "Firebase Auth", "Web Crypto API", "Web Workers", "Schema.org (JSON-LD)"],
+              highlights: [
+                "Engineered with cutting-edge AI SEO & GEO First architecture: Answer-First content modeling, native /llms.txt for AI crawlers, schema-dts structured data, and static generation (SSG) across 341 pages.",
+                "Integrated Firebase Auth for unlimited usage tiers and full internationalization across 5 languages (VI, EN, ZH, JA, KO)."
+              ]
+            },
+            {
+              name: "SangLe AI Showcase (Real-Time In-Browser AI Platform)",
+              category: "ai",
+              tag: "Real-Time Browser AI",
+              liveUrl: "https://sangle-ai.vercel.app/",
+              liveText: "sangle-ai.vercel.app",
+              githubUrl: "https://github.com/lequangsang01/sangle-AI",
+              desc: "High-performance real-time browser AI showcase platform powered by Google MediaPipe Tasks, leveraging WebAssembly (WASM) and WebGL hardware acceleration across GPU/CPU for ultra-low latency on-device intelligence.",
+              tech: ["Next.js 16 (App Router)", "TypeScript", "Google MediaPipe", "WASM", "WebGL", "Tailwind CSS", "Radix UI", "Chart.js"],
+              highlights: [
+                "Deployed 15+ frontier AI models across 3 core modalities: Computer Vision (468+ point Face Landmarker with blendshapes, Hand tracking, Gesture recognition, Pose estimation, 1-click Interactive Segmentation), NLP (client-side LLM inference with Gemma), and Audio classification.",
+                "100% On-Device edge inference with zero camera/mic streaming to the cloud, ensuring complete privacy and high responsiveness on desktop and mobile."
+              ]
+            }
+          ]
+        },
+        {
           company: "Zotek8",
           period: "08/2023 - Present",
           role: "Software Engineer (Full Stack & AI)",
@@ -627,6 +701,43 @@ const cvData = {
     experience: {
       title: "软件工程项目与履历",
       items: [
+        {
+          company: "个人重点开源与独立软件项目 (Personal Projects)",
+          period: "2024年 - 至今",
+          role: "独立全栈开发者 / 负责人 (Creator & Lead Engineer)",
+          location: "越南河内 / 线上",
+          overview: "自主设计、研发并长期维护面向全球用户的独立软件产品，体现端到端全栈工程能力、客户端隐私计算与浏览器端边缘 AI 深度落地。",
+          projects: [
+            {
+              name: "OmniKit Web Tool (53 款离线客户端综合效率工具箱)",
+              category: "fullstack",
+              tag: "客户端工具 / AI SEO",
+              liveUrl: "https://www.omnikit.online",
+              liveText: "omnikit.online",
+              githubUrl: "https://github.com/lequangsang01/web-tool",
+              desc: "包含 53 款在线效率工具的高性能 Web 平台（打字测速、文本 Diff 比对、JSON/JWT/正则/哈希加密、离线 PDF 与图像处理、商业 ROI 计算、WCAG 色彩对比度、动态二维码等）。采用 100% 浏览器客户端计算，零数据上云，保障极致隐私。",
+              tech: ["Next.js (SSG)", "TypeScript", "Tailwind CSS", "Firebase Auth", "Web Crypto API", "Web Workers", "Schema.org (JSON-LD)"],
+              highlights: [
+                "深度践行 AI SEO / GEO First 架构：Answer-First 语义优化、提供 /llms.txt 供 AI 爬虫解析、Schema.org 结构化数据，静态预渲染 (SSG) 341 个页面。",
+                "集成 Firebase 身份认证并支持 5 种国际语言（中、越、英、日、韩）。"
+              ]
+            },
+            {
+              name: "SangLe AI Showcase (浏览器端实时高性能 AI 演示平台)",
+              category: "ai",
+              tag: "浏览器端实时 AI",
+              liveUrl: "https://sangle-ai.vercel.app/",
+              liveText: "sangle-ai.vercel.app",
+              githubUrl: "https://github.com/lequangsang01/sangle-AI",
+              desc: "基于浏览器的轻量级高性能实时 AI 演示平台，基于 Google MediaPipe Tasks 并借助 WebAssembly (WASM) 与 WebGL 实现 GPU/CPU 硬件加速，达成毫秒级端侧边缘推理。",
+              tech: ["Next.js 16 (App Router)", "TypeScript", "Google MediaPipe", "WASM", "WebGL", "Tailwind CSS", "Radix UI", "Chart.js"],
+              highlights: [
+                "深度集成 3 大模态共 15+ 款核心 AI 模型：计算机视觉（468+ 关键点面部微表情识别、手势隔空控制、人体骨骼姿态追踪、单点交互式智能抠图）、自然语言处理（浏览器端本地运行 Gemma 大语言模型）、环境音频分类。",
+                "100% 设备端本地推理（On-Device Edge AI），音视频流绝不上云，保障隐私并流畅兼容移动端与桌面端。"
+              ]
+            }
+          ]
+        },
         {
           company: "Zotek8",
           period: "2023年08月 - 至今",
