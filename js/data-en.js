@@ -144,14 +144,30 @@ cvData.en = {
             ]
           },
           {
-            name: "Kurua & Will Watch",
+            name: "Kurua (Orthopedic Rehabilitation Healthcare Platform)",
             category: "fullstack",
-            tag: "Healthcare & Geo-AI",
-            desc: "Kurua: Clinic orthopedic rehabilitation tracking web/mobile app. Will Watch: Crowdsourced wildlife geospatial mapping platform with AI classification.",
-            tech: ["Vue.js", "React Native", "Next.js", "Flutter", "Laravel", "Firebase", "Docker"],
+            tag: "Healthcare & Mobile App",
+            desc: "Digital healthcare platform tracking orthopedic rehabilitation regimens for specialty clinics, connecting physicians and patients seamlessly via Web and Mobile Apps.",
+            tech: ["Vue.js", "React Native", "Laravel", "MySQL", "Firebase", "REST API", "Docker"],
+            contributions: [
+              "Maintained system reliability, resolved production issues, and ensured continuous electronic health record data integrity.",
+              "Spearheaded end-to-end full-stack feature development: modeled MySQL relational databases and built Laravel REST APIs.",
+              "Implemented synchronized feature rollouts across the clinician web portal (Vue.js) and patient mobile application (React Native)."
+            ],
             highlights: [
-              "Ensured seamless cross-platform experiences across administrative web portals and end-user mobile apps.",
-              "Engineered strict HIPAA-compliant patient data boundaries and real-time syncing via Firebase."
+              "Real-time rehabilitation progress and exercise synchronization between Doctor Web App and Patient Mobile App via Firebase.",
+              "Strict healthcare privacy access controls and data security compliance for sensitive medical records."
+            ]
+          },
+          {
+            name: "Will Watch (Wildlife Geospatial Mapping & AI Platform)",
+            category: "fullstack",
+            tag: "GIS, Geo-AI & Community",
+            desc: "Crowdsourced wildlife geospatial mapping platform combining real-time community location telemetry with AI species classification models.",
+            tech: ["Next.js", "Flutter", "Firebase", "Docker"],
+            highlights: [
+              "Engineered real-time digital mapping workflows processing crowdsourced geospatial telemetry data.",
+              "Ensured seamless cross-platform synchronization between the Flutter mobile app and Next.js web portal."
             ]
           }
         ]

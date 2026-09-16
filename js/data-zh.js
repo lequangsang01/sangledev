@@ -144,14 +144,30 @@ cvData.zh = {
             ]
           },
           {
-            name: "Kurua & Will Watch (康复医疗与生态地理地图)",
+            name: "Kurua (骨科康复医疗与移动健康平台)",
             category: "fullstack",
-            tag: "医疗健康与 GIS-AI",
-            desc: "Kurua：诊所骨科康复追踪平台；Will Watch：结合社区协作与 AI 物种识别的野生动物地理信息地图平台。",
-            tech: ["Vue.js", "React Native", "Next.js", "Flutter", "Laravel", "Firebase", "Docker"],
+            tag: "数字医疗健康",
+            desc: "专为专科诊所打造的骨科康复数字化管理平台，打通医生 Web 管理端与患者移动 App 的康复训练全流程。",
+            tech: ["Vue.js", "React Native", "Laravel", "MySQL", "Firebase", "REST API", "Docker"],
+            contributions: [
+              "负责系统日常运维与生产问题排查，保障电子病历与康复数据的高可用与完整性。",
+              "全栈端到端主导新功能迭代：独立负责 MySQL 数据库建模与 Laravel 后端 REST API 开发。",
+              "同步推进医生端 Web 管理控制台 (Vue.js) 与患者端移动应用程序 (React Native) 的界面与交互实现。"
+            ],
             highlights: [
-              "保证跨平台一致性体验（管理后台 Web 与移动端 App 无缝协作）。",
-              "严格践行医疗健康数据隐私标准，基于 Firebase 达成高并发实时同步。"
+              "基于 Firebase 实现医生 Web 控制台与患者移动 App 之间的康复训练进度实时双向同步。",
+              "严格遵循医疗健康隐私与权限规范，确保患者敏感病历数据的存储与传输安全。"
+            ]
+          },
+          {
+            name: "Will Watch (野生动物地理信息与 AI 识别地图平台)",
+            category: "fullstack",
+            tag: "地理信息与生态 AI",
+            desc: "结合社区地理定位数据与 AI 物种智能分类的野生动物数字化保护与追踪地图平台。",
+            tech: ["Next.js", "Flutter", "Firebase", "Docker"],
+            highlights: [
+              "构建实时数字地图管线，高效处理来自社区的地理位置上报与物种遥测数据。",
+              "实现 Flutter 移动端与 Next.js 门户端之间的实时数据联动与一致性体验。"
             ]
           }
         ]

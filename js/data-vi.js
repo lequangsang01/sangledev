@@ -144,14 +144,30 @@ cvData.vi = {
             ]
           },
           {
-            name: "Kurua & Will Watch",
+            name: "Kurua (Hệ Thống Phục Hồi Chức Năng Cơ Xương Khớp)",
             category: "fullstack",
-            tag: "Healthcare & Geo-AI",
-            desc: "Kurua: Ứng dụng web/app theo dõi phục hồi sức khỏe xương khớp cho phòng khám. Will Watch: Nền tảng bản đồ động vật hoang dã dựa trên dữ liệu cộng đồng và AI.",
-            tech: ["Vue.js", "React Native", "Next.js", "Flutter", "Laravel", "Firebase", "Docker"],
+            tag: "Healthcare & Mobile App",
+            desc: "Nền tảng y tế số quản lý và theo dõi bài tập phục hồi chức năng xương khớp cho bệnh nhân tại phòng khám chuyên khoa, kết nối bác sĩ và người bệnh qua Web và Mobile App.",
+            tech: ["Vue.js", "React Native", "Laravel", "MySQL", "Firebase", "REST API", "Docker"],
+            contributions: [
+              "Vận hành, bảo trì hệ thống và giám sát tính ổn định của dữ liệu bệnh án điện tử.",
+              "Đảm nhiệm toàn trình (Full Stack) phát triển tính năng mới: thiết kế cấu trúc database MySQL và xây dựng REST API backend với Laravel.",
+              "Trực tiếp phát triển giao diện Web quản trị (Vue.js) cho y bác sĩ và ứng dụng di động (React Native) dành cho bệnh nhân theo dõi bài tập."
+            ],
             highlights: [
-              "Đồng bộ trải nghiệm đa nền tảng giữa Web App quản trị và Mobile App người dùng.",
-              "Bảo mật dữ liệu bệnh án nghiêm ngặt và lưu trữ thời gian thực qua Firebase."
+              "Đồng bộ bài tập và dữ liệu phục hồi theo thời gian thực giữa Web App bác sĩ và Mobile App bệnh nhân qua Firebase.",
+              "Thiết kế phân quyền và bảo mật dữ liệu y tế nghiêm ngặt, bảo vệ hồ sơ bệnh án riêng tư."
+            ]
+          },
+          {
+            name: "Will Watch (Nền Tảng Bản Đồ Động Vật Hoang Dã & Geo-AI)",
+            category: "fullstack",
+            tag: "GIS, Geo-AI & Community",
+            desc: "Nền tảng bản đồ số hỗ trợ định vị, theo dõi và bảo tồn động vật hoang dã dựa trên dữ liệu định vị cộng đồng kết hợp mô hình AI phân loại loài.",
+            tech: ["Next.js", "Flutter", "Firebase", "Docker"],
+            highlights: [
+              "Xây dựng hệ thống bản đồ số thời gian thực và xử lý luồng dữ liệu định vị địa lý do cộng đồng đóng góp.",
+              "Đồng bộ trải nghiệm liền mạch giữa ứng dụng di động Flutter và cổng thông tin web Next.js."
             ]
           }
         ]
