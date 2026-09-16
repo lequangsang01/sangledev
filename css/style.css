@@ -295,7 +295,7 @@ body {
 
 /* ---------------- Hero / Header Area ---------------- */
 .cv-header {
-  padding: 44px 44px 36px;
+  padding: 44px 88px 36px;
   background: linear-gradient(180deg, var(--bg-subtle) 0%, var(--bg-surface) 100%);
   border-bottom: 1px solid var(--border-subtle);
   display: grid;
@@ -504,13 +504,13 @@ body {
 /* ---------------- 2-Column Content Layout ---------------- */
 .cv-body-layout {
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 382px 1fr;
   min-height: 600px;
 }
 
 /* ---------------- Sidebar Column ---------------- */
 .cv-sidebar {
-  padding: 36px 32px;
+  padding: 36px 32px 36px 64px;
   background-color: var(--bg-canvas);
   border-right: 1px solid var(--border-subtle);
   display: flex;
@@ -814,7 +814,7 @@ body {
 
 /* ---------------- Main Content Column ---------------- */
 .cv-main {
-  padding: 36px 40px;
+  padding: 36px 80px 36px 40px;
   display: flex;
   flex-direction: column;
   gap: 36px;
