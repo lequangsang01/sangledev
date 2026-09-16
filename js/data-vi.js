@@ -117,6 +117,11 @@ cvData.vi = {
             tag: "FinTech & Open Source",
             desc: "Hệ thống quản lý hóa đơn và dòng tiền mã nguồn mở cho cá nhân & doanh nghiệp: phát hành hóa đơn chuyên nghiệp, theo dõi công nợ tự động, xuất PDF chuẩn in ấn, tích hợp mã QR động và sao lưu định kỳ.",
             tech: ["Laravel (PHP)", "Vite", "Tailwind CSS", "MySQL", "REST API", "DomPDF", "Laravel Queue", "Docker"],
+            contributions: [
+              "Bảo trì hệ thống, tối ưu mã nguồn và refactor các module nghiệp vụ, đảm bảo dịch vụ vận hành ổn định.",
+              "Phát triển trọn gói (Full Stack) các tính năng mới: thiết kế cấu trúc database MySQL, viết REST API trên Laravel và hoàn thiện giao diện người dùng.",
+              "Tối ưu pipeline xuất hóa đơn PDF tốc độ cao qua DomPDF và lập lịch tác vụ tự động gửi thông báo công nợ bằng Laravel Queue."
+            ],
             highlights: [
               "Tự động hóa chu kỳ xuất hóa đơn định kỳ và cảnh báo nợ quá hạn bằng Laravel Scheduler.",
               "Tích hợp xuất PDF tốc độ cao và tạo mã QR động ngân hàng chuẩn EMVCo."
@@ -128,6 +133,11 @@ cvData.vi = {
             tag: "Marketing Tech",
             desc: "Trung tâm quản trị tập trung chiến dịch quảng cáo Meta & Google Ads: theo dõi chỉ số ROI của URL liên kết, bộ lọc từ khóa vi phạm chính sách (NG Keywords), đối soát nạp tiền và xuất báo cáo tài chính.",
             tech: ["Laravel", "Facebook Marketing API", "Google Ads API", "MySQL", "Redis", "Docker", "Bootstrap"],
+            contributions: [
+              "Vận hành, bảo trì và giám sát hiệu năng hệ thống quảng cáo, đảm bảo luồng đồng bộ dữ liệu chiến dịch 24/7.",
+              "Đảm nhiệm toàn trình (Full Stack) phát triển tính năng mới: thiết kế schema MySQL, xây dựng REST API Laravel và giao diện dashboard quản trị.",
+              "Mở rộng tích hợp Meta Marketing & Google Ads API, nâng cấp bộ lọc từ khóa vi phạm (NG Keywords) và tối ưu truy vấn đối soát ngân sách."
+            ],
             highlights: [
               "Tích hợp sâu Facebook Marketing API & Google Ads API nhằm đồng bộ dữ liệu chiến dịch thời gian thực.",
               "Bộ lọc từ khóa cấm tự động giúp bảo vệ tài khoản quảng cáo của khách hàng khỏi vi phạm chính sách."

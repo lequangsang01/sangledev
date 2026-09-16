@@ -117,6 +117,11 @@ cvData.en = {
             tag: "FinTech & Open Source",
             desc: "Open-source invoice and cash flow management platform: automated billing, overdue tracking, high-speed PDF generation, EMVCo dynamic QR payments, and automated database backups.",
             tech: ["Laravel (PHP)", "Vite", "Tailwind CSS", "MySQL", "REST API", "DomPDF", "Laravel Queue", "Docker"],
+            contributions: [
+              "Maintained system reliability, refactored core codebase, and resolved production bugs to ensure continuous uptime.",
+              "Delivered end-to-end full-stack features: designed MySQL relational schemas, implemented Laravel REST APIs, and crafted frontend UI components.",
+              "Optimized batch PDF invoice generation with DomPDF and automated recurring billing notifications via Laravel Queues & Scheduler."
+            ],
             highlights: [
               "Automated recurring billing cycles and overdue alerts via queued background jobs.",
               "Integrated high-speed PDF rendering and dynamic banking QR codes complying with the EMVCo standard."
@@ -128,6 +133,11 @@ cvData.en = {
             tag: "Marketing Tech",
             desc: "Centralized ad campaign operations hub integrating Meta & Google Ads APIs: URL ROI attribution, real-time blacklisted keyword filtering, and automated financial reconciliations.",
             tech: ["Laravel", "Facebook Marketing API", "Google Ads API", "MySQL", "Redis", "Docker", "Bootstrap"],
+            contributions: [
+              "Maintained and monitored ad management infrastructure, ensuring stable 24/7 continuous campaign telemetry synchronization.",
+              "Engineered end-to-end full-stack capabilities: designed MySQL schemas, built Laravel REST endpoints, and developed interactive reporting dashboards.",
+              "Enhanced bidirectional Meta Marketing & Google Ads API integrations, upgrading policy-violating keyword filters and financial reconciliation queries."
+            ],
             highlights: [
               "Deep bidirectional integration with Facebook Marketing API & Google Ads API for synchronized campaign metrics.",
               "Automated policy-violating keyword filtering engine protecting customer accounts from suspensions."

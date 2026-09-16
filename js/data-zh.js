@@ -117,6 +117,11 @@ cvData.zh = {
             tag: "金融科技与开源",
             desc: "面向中小企业的高性能发票与账目管理系统：自动化开票、逾期催收、合规电子凭证导出、EMVCo 动态银行聚合支付二维码与定期容灾备份。",
             tech: ["Laravel (PHP)", "Vite", "Tailwind CSS", "MySQL", "REST API", "DomPDF", "Laravel Queue", "Docker"],
+            contributions: [
+              "负责系统日常维护与核心代码重构，排查生产环境故障，确保线上高可用与账目准确。",
+              "全栈主导新业务模块迭代：从 MySQL 数据库表设计、Laravel 后端 REST API 到前端用户界面的完整交付。",
+              "深度优化基于 DomPDF 的发票导出引擎，并利用 Laravel Queue 自动化日常账单推送与催收。"
+            ],
             highlights: [
               "通过异步任务队列自动化日常账单推送与逾期风控预警。",
               "集成毫秒级 PDF 批量渲染与符合 EMVCo 国际标准的动态银行转账二维码。"
@@ -128,6 +133,11 @@ cvData.zh = {
             tag: "数字营销中台",
             desc: "深度整合 Meta 与 Google Ads 投放生态的一体化中台：链接投资回报率（ROI）追踪、广告违规违禁词实时风控拦截（NG Keywords）及财务对账。",
             tech: ["Laravel", "Facebook Marketing API", "Google Ads API", "MySQL", "Redis", "Docker", "Bootstrap"],
+            contributions: [
+              "主导多渠道广告投放中台的日常维护与性能监控，保障 7×24 小时广告投放流数据稳定同步。",
+              "全栈端到端开发核心新功能：独立完成 MySQL 表结构设计、Laravel 后端业务逻辑与前端控制台看板。",
+              "深入对接 Meta Marketing 与 Google Ads API，升级违禁词拦截引擎 (NG Keywords) 并优化对账报表性能。"
+            ],
             highlights: [
               "深度双向对接 Facebook Marketing API 与 Google Ads API，实现投放数据毫秒级同步。",
               "自研违禁词过滤引擎，有效拦截违规文案，防止客户投放账户被封禁风险。"
