@@ -69,10 +69,10 @@ cvData.zh = {
             desc: "跨平台移动端会议录音与 AI 自动语音转文字（Speech-to-Text）系统，智能提炼会议纪要，并与 Salesforce CRM 深度双向打通。",
             tech: ["Flutter (Dart)", "AWS Lambda", "AWS EC2", "AWS Cognito", "OpenAI Whisper", "AWS Amplify", "Salesforce API", "SQLite"],
             contributions: [
-              "使用 Flutter 独立研发跨平台移动端 App：打造录音交互、音频流处理管道及基于 SQLite 的离线优先数据缓存机制。",
-              "基于 AWS Lambda 构建无服务器 (Serverless) 后端，实现音频事件驱动处理与 Salesforce CRM 双向数据对接。",
-              "集成 AWS Cognito，落地企业级身份认证体系与严格的细粒度安全访问控制策略。",
-              "在 AWS EC2 实例上部署并调优 OpenAI Whisper 语音识别大模型，达成高吞吐、低延迟的转录与会议纪要提炼。"
+              "研发 Flutter 移动端：实现录音交互、音频流处理与 SQLite 离线缓存。",
+              "构建 AWS Lambda 无服务器后端，处理音频事件并对接 Salesforce API。",
+              "集成 AWS Cognito，落地企业级身份认证、数据安全与权限控制。",
+              "在 AWS EC2 部署调优 OpenAI Whisper 模型，达成低延迟自动语音转录。"
             ],
             highlights: [
               "全面实现会议纪要生成与 Salesforce CRM 数据的 100% 自动化闭环同步。",

@@ -69,10 +69,10 @@ cvData.en = {
             desc: "Enterprise mobile audio recording and AI Speech-to-Text transcription suite with automated meeting summary generation and bidirectional sync with Salesforce CRM.",
             tech: ["Flutter (Dart)", "AWS Lambda", "AWS EC2", "AWS Cognito", "OpenAI Whisper", "AWS Amplify", "Salesforce API", "SQLite"],
             contributions: [
-              "Engineered cross-platform mobile application with Flutter: designed intuitive recording UI, audio streaming workflows, and resilient Offline-First local caching via SQLite.",
-              "Architected Serverless backend workflows on AWS Lambda to ingest, orchestrate audio processing pipelines, and interface with Salesforce CRM APIs.",
-              "Configured enterprise authentication, security boundaries, and fine-grained authorization policies utilizing AWS Cognito.",
-              "Deployed and fine-tuned OpenAI Whisper Speech-to-Text models on AWS EC2 GPU/CPU instances for high-throughput, low-latency automated transcription."
+              "Built Flutter app: developed recording UI, audio streaming, and Offline-First SQLite caching.",
+              "Engineered Serverless backend with AWS Lambda for audio processing and Salesforce CRM API integration.",
+              "Configured user authentication, security, and access control policies via AWS Cognito.",
+              "Deployed and optimized OpenAI Whisper on AWS EC2 for low-latency automated speech transcription."
             ],
             highlights: [
               "Automated end-to-end meeting minutes generation with secure bidirectional synchronization to Salesforce CRM REST APIs.",

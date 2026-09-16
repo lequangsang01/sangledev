@@ -69,10 +69,10 @@ cvData.vi = {
             desc: "Hệ thống ghi âm di động, tự động chuyển đổi giọng nói thành văn bản (Speech-to-Text) và tổng hợp biên bản cuộc họp thông minh bằng AI, đồng bộ dữ liệu thời gian thực với Salesforce CRM.",
             tech: ["Flutter (Dart)", "AWS Lambda", "AWS EC2", "AWS Cognito", "OpenAI Whisper", "AWS Amplify", "Salesforce API", "SQLite"],
             contributions: [
-              "Trực tiếp phát triển ứng dụng di động đa nền tảng Flutter: xây dựng giao diện ghi âm, luồng xử lý audio streaming và kiến trúc Offline-First lưu trữ tạm với SQLite.",
-              "Thiết kế và triển khai Serverless Backend với AWS Lambda để điều phối luồng xử lý tệp âm thanh và tích hợp API Salesforce CRM.",
-              "Cấu hình hệ thống xác thực người dùng, bảo mật và phân quyền truy cập thông qua AWS Cognito.",
-              "Triển khai và tối ưu hóa mô hình AI Speech-to-Text (OpenAI Whisper) trên máy chủ AWS EC2 phục vụ nhận diện giọng nói và bóc băng cuộc họp tự động độ trễ thấp."
+              "Phát triển app Flutter: xây dựng UI ghi âm, xử lý audio streaming và cơ chế Offline-First với SQLite.",
+              "Xây dựng Serverless Backend với AWS Lambda điều phối xử lý audio và tích hợp Salesforce CRM API.",
+              "Thiết lập hệ thống xác thực, bảo mật và phân quyền người dùng qua AWS Cognito.",
+              "Triển khai và tối ưu mô hình OpenAI Whisper trên AWS EC2 phục vụ bóc băng âm thanh tự động độ trễ thấp."
             ],
             highlights: [
               "Tự động hóa 100% quy trình ghi âm, bóc băng và đồng bộ dữ liệu hai chiều an toàn với Salesforce CRM REST API.",
