@@ -257,7 +257,7 @@ cvData.en = {
       },
       {
         name: "Languages & Engineering Mindset",
-        items: ["Vietnamese (Native)", "English (CEFR B1 - Technical documentation & Communication)", "Team Leadership & Project Planning (Led a 5-member engineering team)", "Critical Thinking", "Complex Problem Solving", "Systems Thinking"]
+        items: ["Team Leadership & Project Planning (Led a 5-member engineering team)", "Vietnamese (Native)", "English (CEFR B1 - Technical documentation & Communication)", "Critical Thinking", "Complex Problem Solving", "Systems Thinking"]
       }
     ]
   },

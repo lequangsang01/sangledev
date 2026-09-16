@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="skill-group-title">${group.name}</div>
           <div class="skill-tags">
             ${group.items.map(skill => {
-              const isHighlight = ['YOLOv11', 'PyTorch', 'Vue.js (Vue 3)', 'Laravel', 'Flutter (Dart)', 'Docker', 'AWS'].some(k => skill.includes(k));
+              const isHighlight = ['YOLOv11', 'PyTorch', 'Vue.js (Vue 3)', 'Laravel', 'Flutter (Dart)', 'Docker', 'AWS', 'Team Lead', 'Quản lý đội nhóm', 'Team Leadership', '团队管理'].some(k => skill.includes(k));
               return `<span class="skill-tag ${isHighlight ? 'highlight' : ''}">${skill}</span>`;
             }).join('')}
           </div>

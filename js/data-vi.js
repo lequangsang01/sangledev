@@ -257,7 +257,7 @@ cvData.vi = {
       },
       {
         name: "Ngoại Ngữ & Kỹ Năng Kỹ Sư",
-        items: ["Tiếng Việt (Bản ngữ)", "Tiếng Anh (Chuẩn B1 - Đọc hiểu tài liệu chuyên sâu & Giao tiếp)", "Quản lý đội nhóm & Lập kế hoạch kỹ thuật (Team Lead nhóm 5 thành viên)", "Tư duy phản biện", "Giải quyết vấn đề phức tạp", "Làm việc nhóm"]
+        items: ["Quản lý đội nhóm & Lập kế hoạch kỹ thuật (Team Lead nhóm 5 thành viên)", "Tiếng Việt (Bản ngữ)", "Tiếng Anh (Chuẩn B1 - Đọc hiểu tài liệu chuyên sâu & Giao tiếp)", "Tư duy phản biện", "Giải quyết vấn đề phức tạp", "Làm việc nhóm"]
       }
     ]
   },
