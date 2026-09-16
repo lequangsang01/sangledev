@@ -317,7 +317,7 @@ cvData.vi = {
     period: "08/2019 - 04/2024",
     grade: "Hạng Tốt Nghiệp: XUẤT SẮC",
     gpa: "Điểm trung bình tích lũy (GPA): 3.61 / 4.0",
-    notes: "Tốt nghiệp thủ khoa đầu ra với nền tảng vững vàng về thuật toán, kiến trúc máy tính, mạng máy tính và thị giác máy tính.",
+    notes: "Tốt nghiệp trong Top 10 của khoa với nền tảng vững vàng về thuật toán, kiến trúc máy tính, mạng máy tính và thị giác máy tính.",
     documents: [
       {
         id: "diploma",
@@ -366,7 +366,7 @@ cvData.vi = {
     title: "Sở Thích Cá Nhân",
     items: [
       { icon: "💻", text: "Nghiên cứu kiến trúc hệ thống phân tán, mã nguồn mở & AI Agents" },
-      { icon: "🏃", text: "Chạy bộ (Rèn luyện thể lực bền bỉ và tính kiên định)" },
+      { icon: "🏃", text: "Chạy bộ, rèn luyện thể lực bền bỉ và tính kiên định" },
       { icon: "🎮", text: "Chơi game chiến thuật và giải đố logic" }
     ]
   },

@@ -317,7 +317,7 @@ cvData.en = {
     period: "08/2019 - 04/2024",
     grade: "Honors: HIGH DISTINCTION (Summa Cum Laude / Xuất Sắc)",
     gpa: "Cumulative GPA: 3.61 / 4.0",
-    notes: "Graduated top of class with strong mastery in algorithms, computer architecture, networking, and computer vision systems.",
+    notes: "Graduated in the Top 10 of the department with strong mastery in algorithms, computer architecture, networking, and computer vision systems.",
     documents: [
       {
         id: "diploma",
