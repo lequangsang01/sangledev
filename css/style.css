@@ -453,8 +453,9 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background-color: var(--bg-subtle);
-  border-bottom: 1px solid var(--border-subtle);
-  padding: 0 80px 0 64px;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin: 16px 80px 16px 64px;
 }
 
 .metric-card {
