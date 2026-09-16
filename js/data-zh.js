@@ -32,8 +32,8 @@ cvData.zh = {
           meta: "PDF 格式 • 大小 ~3.6 MB",
           badge: "越南语",
           btnText: "下载",
-          fileUrl: "cv%20sangle%20vi.pdf",
-          downloadName: "cv sangle vi.pdf",
+          fileUrl: "cv-sangle-vi.pdf",
+          downloadName: "cv-sangle-vi.pdf",
           toast: "正在下载越南语版简历..."
         },
         {
@@ -44,8 +44,8 @@ cvData.zh = {
           meta: "PDF 格式 • 大小 ~3.4 MB",
           badge: "英文版",
           btnText: "下载",
-          fileUrl: "cv%20sangle%20en.pdf",
-          downloadName: "cv sangle en.pdf",
+          fileUrl: "cv-sangle-en.pdf",
+          downloadName: "cv-sangle-en.pdf",
           toast: "正在下载英文版简历..."
         },
         {
@@ -56,8 +56,8 @@ cvData.zh = {
           meta: "PDF 格式 • 大小 ~3.9 MB",
           badge: "官方推荐",
           btnText: "下载",
-          fileUrl: "cv%20sangle%20zh.pdf",
-          downloadName: "cv sangle zh.pdf",
+          fileUrl: "cv-sangle-zh.pdf",
+          downloadName: "cv-sangle-zh.pdf",
           toast: "正在下载中文版简历..."
         }
       ]

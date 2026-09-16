@@ -32,8 +32,8 @@ cvData.vi = {
           meta: "Định dạng PDF • Dung lượng ~3.6 MB",
           badge: "Khuyên dùng",
           btnText: "Tải về",
-          fileUrl: "cv%20sangle%20vi.pdf",
-          downloadName: "cv sangle vi.pdf",
+          fileUrl: "cv-sangle-vi.pdf",
+          downloadName: "cv-sangle-vi.pdf",
           toast: "Đang tải xuống CV bản Tiếng Việt..."
         },
         {
@@ -44,8 +44,8 @@ cvData.vi = {
           meta: "Định dạng PDF • Dung lượng ~3.4 MB",
           badge: "English",
           btnText: "Tải về",
-          fileUrl: "cv%20sangle%20en.pdf",
-          downloadName: "cv sangle en.pdf",
+          fileUrl: "cv-sangle-en.pdf",
+          downloadName: "cv-sangle-en.pdf",
           toast: "Đang tải xuống CV bản Tiếng Anh..."
         },
         {
@@ -56,8 +56,8 @@ cvData.vi = {
           meta: "Định dạng PDF • Dung lượng ~3.9 MB",
           badge: "中文版",
           btnText: "Tải về",
-          fileUrl: "cv%20sangle%20zh.pdf",
-          downloadName: "cv sangle zh.pdf",
+          fileUrl: "cv-sangle-zh.pdf",
+          downloadName: "cv-sangle-zh.pdf",
           toast: "Đang tải xuống CV bản Tiếng Trung..."
         }
       ]

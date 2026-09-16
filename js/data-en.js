@@ -32,8 +32,8 @@ cvData.en = {
           meta: "PDF Format • ~3.6 MB",
           badge: "Vietnamese",
           btnText: "Download",
-          fileUrl: "cv%20sangle%20vi.pdf",
-          downloadName: "cv sangle vi.pdf",
+          fileUrl: "cv-sangle-vi.pdf",
+          downloadName: "cv-sangle-vi.pdf",
           toast: "Downloading Vietnamese CV..."
         },
         {
@@ -44,8 +44,8 @@ cvData.en = {
           meta: "PDF Format • ~3.4 MB",
           badge: "Recommended",
           btnText: "Download",
-          fileUrl: "cv%20sangle%20en.pdf",
-          downloadName: "cv sangle en.pdf",
+          fileUrl: "cv-sangle-en.pdf",
+          downloadName: "cv-sangle-en.pdf",
           toast: "Downloading English CV..."
         },
         {
@@ -56,8 +56,8 @@ cvData.en = {
           meta: "PDF Format • ~3.9 MB",
           badge: "Chinese",
           btnText: "Download",
-          fileUrl: "cv%20sangle%20zh.pdf",
-          downloadName: "cv sangle zh.pdf",
+          fileUrl: "cv-sangle-zh.pdf",
+          downloadName: "cv-sangle-zh.pdf",
           toast: "Downloading Chinese CV..."
         }
       ]
