@@ -18,11 +18,11 @@ cvData.vi = {
     closeModal: "Đóng",
     openOriginal: "Mở ảnh gốc",
     verifiedBadge: "Văn Bằng Đã Xác Thực",
-    contribLabel: "Nhiệm vụ & Đóng góp chính"
+    contribLabel: "Nhiệm vụ & Đóng góp chính:"
   },
   personal: {
     name: "LÊ QUANG SANG",
-    subName: "Le Quang Sang",
+    subName: "",
     title: "Kỹ Sư Phần Mềm (Software Engineer)",
     tagline: "Thiết kế kiến trúc hệ thống và phát triển các giải pháp Full Stack, Mobile & Trí tuệ nhân tạo ứng dụng.",
     avatar: "eaa169ef5155dd0b8444.jpg",
