@@ -190,6 +190,11 @@ cvData.vi = {
             tag: "AI Data Tooling",
             desc: "Công cụ gán nhãn đa giác và chấm điểm tổn thương trên ảnh soi da chuyên sâu, xuất dữ liệu chuẩn hóa phục vụ huấn luyện mô hình thị giác máy tính.",
             tech: ["Python Flask", "JavaScript (ES6+)", "Bootstrap", "Canvas API"],
+            contributions: [
+              "Bảo trì công cụ gán nhãn nội bộ, khắc phục các lỗi giao diện và đảm bảo quy trình gán nhãn dữ liệu da liễu diễn ra liên tục.",
+              "Nghiên cứu và phát triển các tính năng mới trên HTML5 Canvas: hỗ trợ vẽ đa giác (polygon), chấm điểm vùng tổn thương và phóng to/thu nhỏ ảnh độ phân giải cao.",
+              "Xây dựng module backend (Python Flask) chuẩn hóa dữ liệu nhãn đầu ra sang định dạng JSON phục vụ pipeline huấn luyện mô hình AI."
+            ],
             highlights: [
               "Xây dựng công cụ vẽ và đo đạc trực tiếp trên Canvas với tốc độ phản hồi cao.",
               "Xuất định dạng dữ liệu JSON chuẩn mực tích hợp thẳng vào pipeline training."
@@ -201,6 +206,11 @@ cvData.vi = {
             tag: "B2B Embeddable SDK",
             desc: "Đóng gói các giải pháp AI thành các widget Web/Mobile độc lập, hỗ trợ khách hàng B2B tích hợp trực tiếp vào website qua mã nhúng JavaScript có thể tùy biến cấu hình.",
             tech: ["React", "React Native", "JavaScript", "Python", ".NET API"],
+            contributions: [
+              "Bảo trì và tối ưu hóa hiệu năng các widget AI nhúng, đảm bảo tính tương thích đa trình duyệt và không gây xung đột mã nguồn của khách hàng.",
+              "Phát triển các tính năng mới cho bộ widget (Web React & Mobile React Native): tùy biến giao diện linh hoạt theo thông số cấu hình của đối tác B2B.",
+              "Tích hợp và đồng bộ luồng gọi API đến dịch vụ backend (.NET & Python) để xử lý kết quả phân tích AI và hiển thị tức thì."
+            ],
             highlights: [
               "Kiến trúc component cô lập, ngăn ngừa triệt để xung đột CSS/JS khi nhúng vào website bên thứ ba."
             ]

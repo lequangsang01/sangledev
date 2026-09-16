@@ -190,6 +190,11 @@ cvData.en = {
             tag: "AI Data Tooling",
             desc: "Interactive polygonal annotation and scoring web application for dermatological analysis, producing standardized ground truth datasets for ML training pipelines.",
             tech: ["Python Flask", "JavaScript (ES6+)", "Bootstrap", "Canvas API"],
+            contributions: [
+              "Maintained the internal annotation tool, fixed UI bugs, and ensured smooth continuous labeling workflows for dermatology datasets.",
+              "Engineered new interactive Canvas features: polygonal lesion tracing, multi-point measurement scoring, and high-resolution zoom/pan.",
+              "Built Python Flask backend modules to validate and serialize annotation datasets into standardized JSON for ML training pipelines."
+            ],
             highlights: [
               "Built high-performance, low-latency Canvas manipulation and geometric measurement tools.",
               "Engineered standardized JSON dataset serialization for seamless machine learning pipelines."
@@ -201,6 +206,11 @@ cvData.en = {
             tag: "B2B Embeddable SDK",
             desc: "Packaged proprietary AI models into standalone embeddable Web/Mobile UI widgets for plug-and-play B2B client website integration.",
             tech: ["React", "React Native", "JavaScript", "Python", ".NET API"],
+            contributions: [
+              "Maintained embeddable AI widgets, ensuring high runtime stability, cross-browser compatibility, and zero conflicts with host environments.",
+              "Developed new features for Web (React) and Mobile (React Native) widget modules, supporting dynamic thematic customization for B2B clients.",
+              "Integrated and synchronized API client communication with backend services (.NET and Python) to render real-time AI inference results."
+            ],
             highlights: [
               "Architected isolated component sandboxing preventing CSS/JS namespace collisions when injected into third-party sites."
             ]

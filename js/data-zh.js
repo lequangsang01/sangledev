@@ -190,6 +190,11 @@ cvData.zh = {
             tag: "AI 数据基础设施",
             desc: "专为皮肤医学影像研发的多边形高精度交互标注与病损评分工具，生成标准化 Ground Truth 数据集直接接入深度学习训练流水线。",
             tech: ["Python Flask", "JavaScript (ES6+)", "Bootstrap", "Canvas API"],
+            contributions: [
+              "维护内部数据标注系统稳定性，修复前端交互缺陷，保障皮肤医学数据集标注流程顺畅运行。",
+              "研发新增 Canvas 交互特性：支持多边形轮廓勾勒、病损关键点量化评分及高分辨率图像缩放平移。",
+              "构建 Python Flask 后端校验与数据导出模块，生成标准化 JSON 数据集直通机器学习训练管线。"
+            ],
             highlights: [
               "基于原生 Canvas API 打造低延迟、亚像素级平滑交互绘图与测量引擎。",
               "设计标准化 JSON 标注序列化格式，直通算法团队的模型训练流水线。"
@@ -201,6 +206,11 @@ cvData.zh = {
             tag: "B2B 嵌入式 SDK",
             desc: "将自研 AI 算法打包为即插即用的现代化独立 Web/Mobile 组件，为企业级 B2B 客户提供极简的一行脚本接入方案。",
             tech: ["React", "React Native", "JavaScript", "Python", ".NET API"],
+            contributions: [
+              "维护可嵌入式 AI Widget 运行稳定性，优化加载性能与跨浏览器兼容性，防止与宿主环境发生冲突。",
+              "开发 Web (React) 与 Mobile (React Native) 组件新特性，支持 B2B 客户依据品牌规范灵活自定义样式与配置参数。",
+              "对接并协同后端 (.NET 与 Python) API 服务，实现 AI 模型实时推理结果的高效渲染与呈现。"
+            ],
             highlights: [
               "沙箱化组件设计，彻底避免接入客户第三方系统时的 CSS 样式冲突与全局 JS 命名空间污染。"
             ]
