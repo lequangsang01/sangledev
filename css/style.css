@@ -1026,15 +1026,11 @@ body {
   font-style: italic;
 }
 
-/* Project Cards Grid inside Company */
+/* Project Cards List inside Company (1 project per row) */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-}
-
-.projects-grid.full-width {
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .project-card {
