@@ -368,7 +368,7 @@ cvData.zh = {
     degree: "信息技术工学学士 (The Degree of Engineer in IT)",
     major: "专业方向：人工智能与计算机视觉 (AI & Computer Vision)",
     period: "2019年08月 - 2024年04月",
-    grade: "毕业荣誉：优秀毕业生 (Xuất Sắc)",
+    grade: "毕业荣誉：优秀毕业生",
     gpa: "累计平均绩点 (GPA)：3.61 / 4.0",
     notes: "以学院前 10 名优异成绩毕业，掌握扎实的数据结构、算法、计算机组成原理、网络与计算机视觉理论。",
     documents: [
