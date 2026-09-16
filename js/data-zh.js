@@ -253,11 +253,11 @@ cvData.zh = {
       },
       {
         name: "DevOps、云平台与第三方集成",
-        items: ["Docker", "AWS (EC2, S3, Amplify)", "Google Cloud Platform", "Cloudflare", "Git / GitHub Actions", "Meta Ads API", "Google Ads API", "Salesforce API"]
+        items: ["Docker", "AWS (EC2, S3, Lambda, DynamoDB, Cognito, Amplify)", "Google Cloud Platform", "Cloudflare", "Git / GitHub Actions", "Meta Ads API", "Google Ads API", "Salesforce API"]
       },
       {
         name: "语言能力与工程思维",
-        items: ["越南语 (母语)", "英语 (B1 级 - 熟练阅读英文技术文档及技术沟通)", "批判性思维", "复杂系统问题分析", "架构设计思维"]
+        items: ["越南语 (母语)", "英语 (B1 级 - 熟练阅读英文技术文档及技术沟通)", "团队管理与项目规划 (带领 5 人研发团队)", "批判性思维", "复杂系统问题分析", "架构设计思维"]
       }
     ]
   },

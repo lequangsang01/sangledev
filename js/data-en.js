@@ -253,11 +253,11 @@ cvData.en = {
       },
       {
         name: "DevOps, Cloud & API Integrations",
-        items: ["Docker", "AWS (EC2, S3, Amplify)", "Google Cloud Platform", "Cloudflare", "Git / GitHub Actions", "Meta Ads API", "Google Ads API", "Salesforce API"]
+        items: ["Docker", "AWS (EC2, S3, Lambda, DynamoDB, Cognito, Amplify)", "Google Cloud Platform", "Cloudflare", "Git / GitHub Actions", "Meta Ads API", "Google Ads API", "Salesforce API"]
       },
       {
         name: "Languages & Engineering Mindset",
-        items: ["Vietnamese (Native)", "English (CEFR B1 - Technical documentation & Communication)", "Critical Thinking", "Complex Problem Solving", "Systems Thinking"]
+        items: ["Vietnamese (Native)", "English (CEFR B1 - Technical documentation & Communication)", "Team Leadership & Project Planning (Led a 5-member engineering team)", "Critical Thinking", "Complex Problem Solving", "Systems Thinking"]
       }
     ]
   },

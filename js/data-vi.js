@@ -23,7 +23,7 @@ cvData.vi = {
     name: "LÊ QUANG SANG",
     subName: "Le Quang Sang",
     title: "Kỹ Sư Phần Mềm (Software Engineer)",
-    tagline: "Thiết kế kiến trúc hệ thống, phát triển giải pháp Full Stack, Mobile & Trí tuệ nhân tạo ứng dụng (Applied AI)",
+    tagline: "Thiết kế kiến trúc hệ thống và phát triển các giải pháp Full Stack, Mobile & Trí tuệ nhân tạo ứng dụng (Applied AI).",
     avatar: "eaa169ef5155dd0b8444.jpg",
     dob: "10/03/2001",
     phone: "0329004844",
@@ -253,11 +253,11 @@ cvData.vi = {
       },
       {
         name: "DevOps, Cloud & Tích Hợp API",
-        items: ["Docker", "AWS (EC2, S3, Amplify)", "Google Cloud Platform", "Cloudflare", "Git / GitHub Actions", "Meta Ads API", "Google Ads API", "Salesforce API"]
+        items: ["Docker", "AWS (EC2, S3, Lambda, DynamoDB, Cognito, Amplify)", "Google Cloud Platform", "Cloudflare", "Git / GitHub Actions", "Meta Ads API", "Google Ads API", "Salesforce API"]
       },
       {
         name: "Ngoại Ngữ & Kỹ Năng Kỹ Sư",
-        items: ["Tiếng Việt (Bản ngữ)", "Tiếng Anh (Chuẩn B1 - Đọc hiểu tài liệu chuyên sâu & Giao tiếp)", "Tư duy phản biện", "Giải quyết vấn đề phức tạp", "Làm việc nhóm"]
+        items: ["Tiếng Việt (Bản ngữ)", "Tiếng Anh (Chuẩn B1 - Đọc hiểu tài liệu chuyên sâu & Giao tiếp)", "Quản lý đội nhóm & Lập kế hoạch kỹ thuật (Team Lead nhóm 5 thành viên)", "Tư duy phản biện", "Giải quyết vấn đề phức tạp", "Làm việc nhóm"]
       }
     ]
   },
