@@ -24,7 +24,7 @@ cvData.vi = {
     name: "LÊ QUANG SANG",
     subName: "Le Quang Sang",
     title: "Kỹ Sư Phần Mềm (Software Engineer)",
-    tagline: "Thiết kế kiến trúc hệ thống và phát triển các giải pháp Full Stack, Mobile & Trí tuệ nhân tạo ứng dụng (Applied AI).",
+    tagline: "Thiết kế kiến trúc hệ thống và phát triển các giải pháp Full Stack, Mobile & Trí tuệ nhân tạo ứng dụng.",
     avatar: "eaa169ef5155dd0b8444.jpg",
     dob: "10/03/2001",
     phone: "0329004844",
@@ -164,7 +164,12 @@ cvData.vi = {
             category: "fullstack",
             tag: "GIS, Geo-AI & Community",
             desc: "Nền tảng bản đồ số hỗ trợ định vị, theo dõi và bảo tồn động vật hoang dã dựa trên dữ liệu định vị cộng đồng kết hợp mô hình AI phân loại loài.",
-            tech: ["Next.js", "Flutter", "Firebase", "Docker"],
+            tech: ["Next.js", "Flutter", "Firebase"],
+            contributions: [
+              "Tham gia phân tích yêu cầu nghiệp vụ và thiết kế kiến trúc hệ thống bản đồ số thời gian thực.",
+              "Thiết kế cấu trúc cơ sở dữ liệu (Database Schema) tối ưu lưu trữ tọa độ địa lý (Geo-spatial) và siêu dữ liệu loài động vật.",
+              "Đảm nhiệm toàn trình (Full Stack): phát triển backend logic, xây dựng cổng thông tin web (Next.js) và ứng dụng di động đa nền tảng (Flutter)."
+            ],
             highlights: [
               "Xây dựng hệ thống bản đồ số thời gian thực và xử lý luồng dữ liệu định vị địa lý do cộng đồng đóng góp.",
               "Đồng bộ trải nghiệm liền mạch giữa ứng dụng di động Flutter và cổng thông tin web Next.js."
@@ -310,7 +315,7 @@ cvData.vi = {
     degree: "Kỹ Sư Công Nghệ Thông Tin (The Degree of Engineer)",
     major: "Chuyên ngành: Trí Tuệ Nhân Tạo & Thị Giác Máy Tính",
     period: "08/2019 - 04/2024",
-    grade: "Hạng Tốt Nghiệp: XUẤT SẮC (Summa Cum Laude / Excellent)",
+    grade: "Hạng Tốt Nghiệp: XUẤT SẮC",
     gpa: "Điểm trung bình tích lũy (GPA): 3.61 / 4.0",
     notes: "Tốt nghiệp thủ khoa đầu ra với nền tảng vững vàng về thuật toán, kiến trúc máy tính, mạng máy tính và thị giác máy tính.",
     documents: [

@@ -24,7 +24,7 @@ cvData.zh = {
     name: "黎光尚",
     subName: "Le Quang Sang",
     title: "软件工程师 (Software Engineer)",
-    tagline: "深耕分布式系统架构、Web 全栈研发、跨平台移动端及工业级端侧 AI 落地 (Applied AI)",
+    tagline: "深耕分布式系统架构、Web 全栈研发、跨平台移动端及工业级端侧 AI 落地",
     avatar: "eaa169ef5155dd0b8444.jpg",
     dob: "2001年03月10日",
     phone: "+84 329 004 844",
@@ -164,7 +164,12 @@ cvData.zh = {
             category: "fullstack",
             tag: "地理信息与生态 AI",
             desc: "结合社区地理定位数据与 AI 物种智能分类的野生动物数字化保护与追踪地图平台。",
-            tech: ["Next.js", "Flutter", "Firebase", "Docker"],
+            tech: ["Next.js", "Flutter", "Firebase"],
+            contributions: [
+              "参与业务需求分析与实时数字化地理地图系统架构设计。",
+              "设计数据库结构模型，针对地理空间坐标 (Geospatial) 与野生动物识别元数据存储进行结构优化。",
+              "主导端到端全栈研发：负责后端业务逻辑实现、Next.js Web 门户及 Flutter 跨平台移动端应用构建。"
+            ],
             highlights: [
               "构建实时数字地图管线，高效处理来自社区的地理位置上报与物种遥测数据。",
               "实现 Flutter 移动端与 Next.js 门户端之间的实时数据联动与一致性体验。"

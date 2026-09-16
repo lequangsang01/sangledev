@@ -164,7 +164,12 @@ cvData.en = {
             category: "fullstack",
             tag: "GIS, Geo-AI & Community",
             desc: "Crowdsourced wildlife geospatial mapping platform combining real-time community location telemetry with AI species classification models.",
-            tech: ["Next.js", "Flutter", "Firebase", "Docker"],
+            tech: ["Next.js", "Flutter", "Firebase"],
+            contributions: [
+              "Analyzed system requirements and designed real-time digital mapping system architecture.",
+              "Architected database schemas optimized for geospatial coordinates, location telemetry, and wildlife metadata.",
+              "Delivered full-stack implementation: developed backend business logic, the web portal (Next.js), and cross-platform mobile app (Flutter)."
+            ],
             highlights: [
               "Engineered real-time digital mapping workflows processing crowdsourced geospatial telemetry data.",
               "Ensured seamless cross-platform synchronization between the Flutter mobile app and Next.js web portal."
