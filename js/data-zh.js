@@ -255,13 +255,13 @@ cvData.zh = {
         overview: "自主设计、研发并长期维护面向全球用户的独立软件产品，体现端到端全栈工程能力、客户端隐私计算与浏览器端边缘 AI 深度落地。",
         projects: [
           {
-            name: "OmniKit Web Tool (53 款离线客户端综合效率工具箱)",
+            name: "OmniKit Web Tool (54+ 款离线客户端综合效率工具箱)",
             category: "fullstack",
             tag: "客户端工具 / AI SEO",
             liveUrl: "https://www.omnikit.online",
             liveText: "omnikit.online",
             githubUrl: "https://github.com/lequangsang01/web-tool",
-            desc: "包含 53 款在线效率工具的高性能 Web 平台（打字测速、文本 Diff 比对、JSON/JWT/正则/哈希加密、离线 PDF 与图像处理、商业 ROI 计算、WCAG 色彩对比度、动态二维码等）。采用 100% 浏览器客户端计算，零数据上云，保障极致隐私。",
+            desc: "包含 54+ 款在线效率工具的高性能 Web 平台（打字测速、文本 Diff 比对、JSON/JWT/正则/哈希加密、离线 PDF 与图像处理、商业 ROI 计算、WCAG 色彩对比度、动态二维码等）。采用 100% 浏览器客户端计算，零数据上云，保障极致隐私。",
             tech: ["Next.js (SSG)", "TypeScript", "Tailwind CSS", "Firebase Auth", "Web Crypto API", "Web Workers", "Schema.org (JSON-LD)"],
             highlights: [
               "深度践行 AI SEO / GEO First 架构：Answer-First 语义优化、提供 /llms.txt 供 AI 爬虫解析、Schema.org 结构化数据，静态预渲染 (SSG) 341 个页面。",
@@ -315,7 +315,7 @@ cvData.zh = {
       },
       {
         name: "语言能力与工程思维",
-        items: ["团队管理与项目规划 (带领 5 人研发团队)", "越南语 (母语)", "英语 (B1 级 - 熟练阅读英文技术文档及技术沟通)", "批判性思维", "复杂系统问题分析", "架构设计思维"]
+        items: ["团队管理与技术规划 (带领 5 人研发团队)", "越南语 (母语)", "英语 (B1 级 - 熟练阅读英文技术文档及技术沟通)", "批判性思维", "复杂系统问题分析", "团队协同 (Teamwork)"]
       }
     ]
   },
@@ -325,7 +325,7 @@ cvData.zh = {
     degree: "信息技术工学学士 (The Degree of Engineer in IT)",
     major: "专业方向：人工智能与计算机视觉 (AI & Computer Vision)",
     period: "2019年08月 - 2024年04月",
-    grade: "毕业荣誉：优秀毕业生 (Summa Cum Laude / Xuất Sắc)",
+    grade: "毕业荣誉：优秀毕业生 (Xuất Sắc)",
     gpa: "累计平均绩点 (GPA)：3.61 / 4.0",
     notes: "以学院前 10 名优异成绩毕业，掌握扎实的数据结构、算法、计算机组成原理、网络与计算机视觉理论。",
     documents: [
@@ -376,7 +376,7 @@ cvData.zh = {
     title: "业余兴趣",
     items: [
       { icon: "💻", text: "钻研分布式系统架构设计、开源软件与 AI Agents" },
-      { icon: "🏃", text: "长跑运动 (锻炼身体耐力、韧性与专注力)" },
+      { icon: "🏃", text: "长跑运动，锤炼持久耐力、坚韧毅力与自律精神" },
       { icon: "🎮", text: "策略逻辑类游戏" }
     ]
   },

@@ -18,11 +18,11 @@ cvData.en = {
     closeModal: "Close",
     openOriginal: "Open Original",
     verifiedBadge: "Verified Credential",
-    contribLabel: "Key Responsibilities & Contributions"
+    contribLabel: "Key Responsibilities & Contributions:"
   },
   personal: {
     name: "LE QUANG SANG",
-    subName: "Software Engineer",
+    subName: "",
     title: "Software Engineer (Full Stack, Systems & Applied AI)",
     tagline: "Architecting resilient distributed systems, modern web platforms, mobile solutions & production-grade Applied AI",
     avatar: "eaa169ef5155dd0b8444.jpg",
@@ -315,7 +315,7 @@ cvData.en = {
       },
       {
         name: "Languages & Engineering Mindset",
-        items: ["Team Leadership & Project Planning (Led a 5-member engineering team)", "Vietnamese (Native)", "English (CEFR B1 - Technical documentation & Communication)", "Critical Thinking", "Complex Problem Solving", "Systems Thinking"]
+        items: ["Team Leadership & Technical Planning (Led a 5-member engineering team)", "Vietnamese (Native)", "English (B1 - Technical Documentation & Communication)", "Critical Thinking", "Complex Problem Solving", "Collaborative Teamwork"]
       }
     ]
   },
@@ -325,7 +325,7 @@ cvData.en = {
     degree: "The Degree of Engineer in Information Technology",
     major: "Major: Artificial Intelligence & Computer Vision",
     period: "08/2019 - 04/2024",
-    grade: "Honors: HIGH DISTINCTION (Summa Cum Laude / Xuất Sắc)",
+    grade: "Honors: HIGH DISTINCTION (Xuất Sắc)",
     gpa: "Cumulative GPA: 3.61 / 4.0",
     notes: "Graduated in the Top 10 of the department with strong mastery in algorithms, computer architecture, networking, and computer vision systems.",
     documents: [
@@ -376,7 +376,7 @@ cvData.en = {
     title: "Personal Interests",
     items: [
       { icon: "💻", text: "Distributed systems architecture, open-source software & AI agents" },
-      { icon: "🏃", text: "Long-distance running (Cultivating grit, stamina & discipline)" },
+      { icon: "🏃", text: "Running, cultivating endurance, grit & discipline" },
       { icon: "🎮", text: "Strategic thinking & logic games" }
     ]
   },
