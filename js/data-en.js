@@ -83,11 +83,16 @@ cvData.en = {
             name: "Camera-count (3D Multi-Camera Pallet AI)",
             category: "ai",
             tag: "AI & Computer Vision",
-            desc: "Engineered a multi-angle (3-camera) 3D computer vision inspection system using geometric reconstruction to predict volume and accurately count severely occluded pallets in industrial warehouse logistics.",
+            desc: "Multi-angle 3D computer vision inspection system combining 3 synchronized cameras with geometric reconstruction to estimate volume and count occluded pallets in warehouses.",
             tech: ["Python", "YOLOv11", "OpenCV", "Open3D", "PyTorch", "Streamlit", "Plotly"],
+            contributions: [
+              "Researched, trained, and benchmarked YOLOv11 models combined with computer vision algorithms for precise pallet/package counting.",
+              "Engineered multi-angle 3D geometric point cloud reconstruction with Open3D & OpenCV to resolve optical blind spots and stacking occlusions.",
+              "Built an interactive 3D Base Demo (PoC) application using Streamlit & Plotly for real-time visualization and customer validation."
+            ],
             highlights: [
-              "Integrated Ultralytics YOLOv11 with Open3D point cloud volumetric reconstruction.",
-              "Completely resolved optical blind spots and heavy stacking occlusions in live warehouse environments."
+              "Successfully eliminated optical blind spots and heavy stacking occlusions in live warehouse logistics.",
+              "Delivered a production-ready PoC pipeline proving high feasibility before warehouse integration."
             ]
           },
           {

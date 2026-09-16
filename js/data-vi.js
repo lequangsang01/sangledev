@@ -83,11 +83,16 @@ cvData.vi = {
             name: "Camera-count (Hệ Thống AI Đếm Pallet 3D Kho Bãi)",
             category: "ai",
             tag: "AI & Computer Vision",
-            desc: "Hệ thống AI xử lý thị giác đa góc (kết hợp 3 camera đồng thời) ứng dụng hình học 3D để ước tính thể tích và giải quyết bài toán đếm số lượng kiện hàng bị che khuất trong kho vận thực tế.",
+            desc: "Hệ thống AI thị giác máy tính kết hợp 3 camera đồng thời ứng dụng hình học 3D để ước tính thể tích và giải quyết bài toán đếm pallet/kiện hàng bị che khuất trong kho bãi.",
             tech: ["Python", "YOLOv11", "OpenCV", "Open3D", "PyTorch", "Streamlit", "Plotly"],
+            contributions: [
+              "Nghiên cứu, huấn luyện mô hình YOLOv11 và thuật toán thị giác máy tính để nhận diện, đếm pallet/kiện hàng chính xác.",
+              "Ứng dụng Open3D & OpenCV tái tạo hình học 3D đa góc nhìn, giải quyết triệt để điểm mù thị giác và hiện tượng xếp chồng che khuất.",
+              "Xây dựng ứng dụng Base Demo (PoC) trực quan hóa 3D thời gian thực bằng Streamlit & Plotly phục vụ đánh giá nghiệm thu."
+            ],
             highlights: [
-              "Ứng dụng mô hình YOLOv11 của Ultralytics kết hợp tái tạo không gian 3D qua Open3D.",
-              "Giải quyết triệt để điểm mù thị giác và hiện tượng xếp chồng che khuất trong môi trường kho vận thực tế."
+              "Giải quyết triệt để góc khuất và hiện tượng che khuất trong môi trường logistics thực tế.",
+              "Hoàn thiện bản PoC trực quan, chứng minh tính khả thi cao trước khi tích hợp vào dây chuyền kho bãi."
             ]
           },
           {
