@@ -99,11 +99,16 @@ cvData.en = {
             name: "ERP Procurement System (Manufacturing Sector)",
             category: "fullstack",
             tag: "Enterprise Architecture",
-            desc: "Architected and delivered an enterprise procurement digitalization platform covering Purchase Requests (PR), Request for Quotation (RFQ), Purchase Orders (PO), inventory inspection, and financial settlements.",
+            desc: "Enterprise procurement digitalization platform covering Purchase Requests (PR), Request for Quotation (RFQ), Purchase Orders (PO), inventory inspection, and financial settlements.",
             tech: ["Vue 3 (Vite)", "Django DRF", "MSSQL", "Redis", "Celery", "Docker", "Tailwind CSS"],
+            contributions: [
+              "Collaborated with the Technical Leader to analyze client procurement business workflows and design the normalized MSSQL database schema.",
+              "Scaffolded and developed the entire Frontend architecture from base using Vue 3, Vite & Tailwind CSS, implementing modular state management and multi-tier approval flows.",
+              "Integrated RESTful APIs with Django DRF backend, optimizing high-volume data grid rendering and complex order form interactions."
+            ],
             highlights: [
-              "Engineered distributed asynchronous task workers using Celery and Redis for heavy report compilation and batch processing.",
-              "Optimized complex MSSQL schemas and relational queries handling hundreds of thousands of ledger records."
+              "Successfully digitized the end-to-end manufacturing procurement lifecycle from PR, RFQ, PO to quality inspection and accounts payable.",
+              "Leveraged Celery & Redis asynchronous task workers for heavy document batch exports, ensuring sub-second UI responsiveness."
             ]
           },
           {

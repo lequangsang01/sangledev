@@ -101,9 +101,14 @@ cvData.zh = {
             tag: "企业级核心系统",
             desc: "从零架构并研发制造型企业数字化采购端到端闭环：采购申请（PR）、询价与比价（RFQ）、采购订单（PO）、验收入库到发票对账与财务结算。",
             tech: ["Vue 3 (Vite)", "Django DRF", "MSSQL", "Redis", "Celery", "Docker", "Tailwind CSS"],
+            contributions: [
+              "配合技术负责人 (Tech Lead) 深入分析客户采购与供应链业务流，主导完成标准化 MSSQL 数据库架构设计。",
+              "从 Base 底层独立搭建前端工程体系 (Vue 3 + Vite + Tailwind CSS)，实现模块化架构、全局状态管理与多级单据审批流。",
+              "高效对接 Django DRF RESTful API，深度优化数十万级物料与账目大表格 (Data Grid) 的平滑交互性能。"
+            ],
             highlights: [
-              "采用 Celery + Redis 构建高可靠分布式异步任务队列，解耦大型报表导出与凭证生成。",
-              "对 MSSQL 复杂账目与物料表进行深度查询优化与索引重构，顺畅支撑数十万级数据规模。"
+              "成功实现从采购申请 (PR)、询价 (RFQ)、订单 (PO) 到入库质检与对账结算的全流程 100% 数字化闭环。",
+              "结合 Celery + Redis 构建高可靠分布式异步任务队列，解耦大型报表导出与凭证生成。"
             ]
           },
           {

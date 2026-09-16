@@ -101,9 +101,14 @@ cvData.vi = {
             tag: "Enterprise Architecture",
             desc: "Kiến trúc và xây dựng hệ thống số hóa toàn diện chuỗi mua sắm sản xuất: từ yêu cầu mua hàng (PR), đấu thầu báo giá (RFQ), đơn đặt hàng (PO) đến thủ tục nhập kho kiểm phẩm và đối soát công nợ.",
             tech: ["Vue 3 (Vite)", "Django DRF", "MSSQL", "Redis", "Celery", "Docker", "Tailwind CSS"],
+            contributions: [
+              "Phối hợp cùng Technical Leader phân tích quy trình nghiệp vụ mua sắm của khách hàng và thiết kế cấu trúc Database (MSSQL) chuẩn hóa.",
+              "Trực tiếp khởi tạo và xây dựng toàn bộ nền tảng Frontend từ base (Vue 3, Vite, Tailwind CSS): cấu trúc module, quản lý state tập trung và luồng duyệt chứng từ đa cấp.",
+              "Tích hợp RESTful API với backend Django DRF, tối ưu hiển thị bảng dữ liệu lớn (data grid) và tương tác biểu mẫu phức tạp."
+            ],
             highlights: [
-              "Thiết kế kiến trúc hàng đợi xử lý tác vụ nền nặng bằng Celery & Redis (báo cáo, gửi mail, tổng hợp chứng từ).",
-              "Tối ưu truy vấn phức tạp trên cơ sở dữ liệu MSSQL cho hàng trăm nghìn bản ghi danh mục và chứng từ."
+              "Số hóa thành công 100% chuỗi cung ứng mua sắm từ PR, RFQ, PO đến nhập kho và đối soát công nợ doanh nghiệp.",
+              "Thiết kế kiến trúc hàng đợi xử lý tác vụ nền nặng bằng Celery & Redis, đảm bảo hệ thống phản hồi mượt mà."
             ]
           },
           {
