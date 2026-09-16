@@ -1138,6 +1138,53 @@ body {
   line-height: 1.55;
 }
 
+/* Project Contributions & Key Tasks */
+.project-contributions {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--accent-primary);
+  border-radius: var(--radius-sm);
+  padding: 9px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contrib-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.77rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--accent-primary);
+}
+
+.contrib-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contrib-list li {
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  position: relative;
+  padding-left: 15px;
+  line-height: 1.45;
+}
+
+.contrib-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
 .project-highlights {
   list-style: none;
   display: flex;

@@ -17,7 +17,8 @@ cvData.zh = {
     docModalTitle: "工学学士学位证书与成绩单",
     closeModal: "关闭",
     openOriginal: "查看原图",
-    verifiedBadge: "官方认证学历资质"
+    verifiedBadge: "官方认证学历资质",
+    contribLabel: "核心职责与贡献"
   },
   personal: {
     name: "黎光尚",
@@ -62,6 +63,23 @@ cvData.zh = {
         overview: "担任核心软件工程师，负责大型企业级软件系统的架构设计、数据库优化、全栈实现与工业级 AI 模块的工程落地。",
         projects: [
           {
+            name: "Meeting Transcription Nagase (智能会议语音转录与 CRM 深度同步)",
+            category: "mobile",
+            tag: "移动端、云原生与 AI 系统",
+            desc: "跨平台移动端会议录音与 AI 自动语音转文字（Speech-to-Text）系统，智能提炼会议纪要，并与 Salesforce CRM 深度双向打通。",
+            tech: ["Flutter (Dart)", "AWS Lambda", "AWS EC2", "AWS Cognito", "OpenAI Whisper", "AWS Amplify", "Salesforce API", "SQLite"],
+            contributions: [
+              "使用 Flutter 独立研发跨平台移动端 App：打造录音交互、音频流处理管道及基于 SQLite 的离线优先数据缓存机制。",
+              "基于 AWS Lambda 构建无服务器 (Serverless) 后端，实现音频事件驱动处理与 Salesforce CRM 双向数据对接。",
+              "集成 AWS Cognito，落地企业级身份认证体系与严格的细粒度安全访问控制策略。",
+              "在 AWS EC2 实例上部署并调优 OpenAI Whisper 语音识别大模型，达成高吞吐、低延迟的转录与会议纪要提炼。"
+            ],
+            highlights: [
+              "全面实现会议纪要生成与 Salesforce CRM 数据的 100% 自动化闭环同步。",
+              "离线优先架构保障弱网环境下无损录音与静默恢复同步。"
+            ]
+          },
+          {
             name: "Camera-count (3D 多视角仓储托盘 AI 盘点系统)",
             category: "ai",
             tag: "AI 与计算机视觉",
@@ -81,17 +99,6 @@ cvData.zh = {
             highlights: [
               "采用 Celery + Redis 构建高可靠分布式异步任务队列，解耦大型报表导出与凭证生成。",
               "对 MSSQL 复杂账目与物料表进行深度查询优化与索引重构，顺畅支撑数十万级数据规模。"
-            ]
-          },
-          {
-            name: "Meeting Transcription Nagase (智能会议语音识别与 CRM 同步)",
-            category: "mobile",
-            tag: "移动端与 AI 系统",
-            desc: "跨平台移动端会议录音与 AI 自动语音转文字（Speech-to-Text）系统，智能提炼会议纪要，并与 Salesforce CRM 深度双向打通。",
-            tech: ["Flutter (Dart)", "AWS Amplify", "Cognito", "Firebase FCM", "SQLite", "Salesforce API"],
-            highlights: [
-              "设计高安全性双向数据同步流水线，无缝对接 Salesforce CRM REST API。",
-              "离线优先架构（Offline-First）：支持完全离线录音与本地 SQLite 队列暂存，网络恢复时静默同步。"
             ]
           },
           {

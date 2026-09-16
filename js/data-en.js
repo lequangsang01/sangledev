@@ -17,7 +17,8 @@ cvData.en = {
     docModalTitle: "Engineer's Degree & Academic Records",
     closeModal: "Close",
     openOriginal: "Open Original",
-    verifiedBadge: "Verified Credential"
+    verifiedBadge: "Verified Credential",
+    contribLabel: "Key Responsibilities & Contributions"
   },
   personal: {
     name: "LE QUANG SANG",
@@ -62,6 +63,23 @@ cvData.en = {
         overview: "Lead software engineer responsible for system architecture, database design, and end-to-end delivery of complex enterprise applications, mobile clients, and applied AI systems.",
         projects: [
           {
+            name: "Meeting Transcription Nagase (AI Speech-to-Text & Transcription)",
+            category: "mobile",
+            tag: "Mobile, Cloud & AI Systems",
+            desc: "Enterprise mobile audio recording and AI Speech-to-Text transcription suite with automated meeting summary generation and bidirectional sync with Salesforce CRM.",
+            tech: ["Flutter (Dart)", "AWS Lambda", "AWS EC2", "AWS Cognito", "OpenAI Whisper", "AWS Amplify", "Salesforce API", "SQLite"],
+            contributions: [
+              "Engineered cross-platform mobile application with Flutter: designed intuitive recording UI, audio streaming workflows, and resilient Offline-First local caching via SQLite.",
+              "Architected Serverless backend workflows on AWS Lambda to ingest, orchestrate audio processing pipelines, and interface with Salesforce CRM APIs.",
+              "Configured enterprise authentication, security boundaries, and fine-grained authorization policies utilizing AWS Cognito.",
+              "Deployed and fine-tuned OpenAI Whisper Speech-to-Text models on AWS EC2 GPU/CPU instances for high-throughput, low-latency automated transcription."
+            ],
+            highlights: [
+              "Automated end-to-end meeting minutes generation with secure bidirectional synchronization to Salesforce CRM REST APIs.",
+              "Implemented an Offline-First architectural pattern with SQLite local queuing and automatic reconciliation."
+            ]
+          },
+          {
             name: "Camera-count (3D Multi-Camera Pallet AI)",
             category: "ai",
             tag: "AI & Computer Vision",
@@ -81,17 +99,6 @@ cvData.en = {
             highlights: [
               "Engineered distributed asynchronous task workers using Celery and Redis for heavy report compilation and batch processing.",
               "Optimized complex MSSQL schemas and relational queries handling hundreds of thousands of ledger records."
-            ]
-          },
-          {
-            name: "Meeting Transcription Nagase",
-            category: "mobile",
-            tag: "Mobile & AI Systems",
-            desc: "Native mobile audio recording and AI Speech-to-Text transcription suite with automated meeting summary generation and bidirectional sync with Salesforce CRM.",
-            tech: ["Flutter (Dart)", "AWS Amplify", "Cognito", "Firebase FCM", "SQLite", "Salesforce API"],
-            highlights: [
-              "Engineered secure bidirectional synchronization pipeline interfacing with Salesforce CRM REST APIs.",
-              "Implemented an Offline-First architectural pattern with SQLite local queuing and automatic reconciliation."
             ]
           },
           {

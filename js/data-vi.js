@@ -17,7 +17,8 @@ cvData.vi = {
     docModalTitle: "Hồ Sơ Văn Bằng & Bảng Điểm Kỹ Sư",
     closeModal: "Đóng",
     openOriginal: "Mở ảnh gốc",
-    verifiedBadge: "Văn Bằng Đã Xác Thực"
+    verifiedBadge: "Văn Bằng Đã Xác Thực",
+    contribLabel: "Nhiệm vụ & Đóng góp chính"
   },
   personal: {
     name: "LÊ QUANG SANG",
@@ -62,6 +63,23 @@ cvData.vi = {
         overview: "Đảm nhiệm vai trò kỹ sư phần mềm chủ lực, tham gia phân tích kiến trúc hệ thống, thiết kế cơ sở dữ liệu và triển khai toàn diện các sản phẩm phần mềm quy mô lớn cho doanh nghiệp trong và ngoài nước.",
         projects: [
           {
+            name: "Meeting Transcription Nagase (Ghi Âm & AI Bóc Băng Cuộc Họp)",
+            category: "mobile",
+            tag: "Mobile, Cloud & AI Systems",
+            desc: "Hệ thống ghi âm di động, tự động chuyển đổi giọng nói thành văn bản (Speech-to-Text) và tổng hợp biên bản cuộc họp thông minh bằng AI, đồng bộ dữ liệu thời gian thực với Salesforce CRM.",
+            tech: ["Flutter (Dart)", "AWS Lambda", "AWS EC2", "AWS Cognito", "OpenAI Whisper", "AWS Amplify", "Salesforce API", "SQLite"],
+            contributions: [
+              "Trực tiếp phát triển ứng dụng di động đa nền tảng Flutter: xây dựng giao diện ghi âm, luồng xử lý audio streaming và kiến trúc Offline-First lưu trữ tạm với SQLite.",
+              "Thiết kế và triển khai Serverless Backend với AWS Lambda để điều phối luồng xử lý tệp âm thanh và tích hợp API Salesforce CRM.",
+              "Cấu hình hệ thống xác thực người dùng, bảo mật và phân quyền truy cập thông qua AWS Cognito.",
+              "Triển khai và tối ưu hóa mô hình AI Speech-to-Text (OpenAI Whisper) trên máy chủ AWS EC2 phục vụ nhận diện giọng nói và bóc băng cuộc họp tự động độ trễ thấp."
+            ],
+            highlights: [
+              "Tự động hóa 100% quy trình ghi âm, bóc băng và đồng bộ dữ liệu hai chiều an toàn với Salesforce CRM REST API.",
+              "Cơ chế Offline-First: hỗ trợ ghi âm ngoại tuyến ổn định và tự động đẩy dữ liệu khi có mạng trở lại."
+            ]
+          },
+          {
             name: "Camera-count (Hệ Thống AI Đếm Pallet 3D Kho Bãi)",
             category: "ai",
             tag: "AI & Computer Vision",
@@ -81,17 +99,6 @@ cvData.vi = {
             highlights: [
               "Thiết kế kiến trúc hàng đợi xử lý tác vụ nền nặng bằng Celery & Redis (báo cáo, gửi mail, tổng hợp chứng từ).",
               "Tối ưu truy vấn phức tạp trên cơ sở dữ liệu MSSQL cho hàng trăm nghìn bản ghi danh mục và chứng từ."
-            ]
-          },
-          {
-            name: "Meeting Transcription Nagase",
-            category: "mobile",
-            tag: "Mobile & AI Systems",
-            desc: "Ứng dụng di động ghi âm, tự động chuyển đổi giọng nói thành văn bản (Speech-to-Text) và tổng hợp biên bản cuộc họp thông minh bằng AI, đồng bộ dữ liệu thời gian thực với Salesforce CRM.",
-            tech: ["Flutter (Dart)", "AWS Amplify", "Cognito", "Firebase FCM", "SQLite", "Salesforce API"],
-            highlights: [
-              "Thiết kế luồng đồng bộ dữ liệu hai chiều an toàn với Salesforce CRM REST API.",
-              "Cơ chế Offline-First: hỗ trợ ghi âm ngoại tuyến và tự động đẩy dữ liệu khi có mạng ổn định."
             ]
           },
           {

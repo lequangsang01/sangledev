@@ -197,6 +197,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
                   <p class="project-desc">${proj.desc}</p>
 
+                  ${(proj.contributions && proj.contributions.length > 0) ? `
+                    <div class="project-contributions">
+                      <div class="contrib-title">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                        <span>${data.meta.contribLabel || "Nhiệm vụ & Đóng góp chính:"}</span>
+                      </div>
+                      <ul class="contrib-list">
+                        ${proj.contributions.map(c => `<li>${c}</li>`).join('')}
+                      </ul>
+                    </div>
+                  ` : ''}
+
                   <ul class="project-highlights">
                     ${proj.highlights.map(h => `<li>${h}</li>`).join('')}
                   </ul>
