@@ -18,7 +18,50 @@ cvData.en = {
     closeModal: "Close",
     openOriginal: "Open Original",
     verifiedBadge: "Verified Credential",
-    contribLabel: "Key Responsibilities & Contributions:"
+    contribLabel: "Key Responsibilities & Contributions:",
+    downloadModal: {
+      title: "Download Official Resume (PDF)",
+      subtitle: "Please select your preferred language edition:",
+      directPrint: "Print current webpage directly (Browser Print / A4)",
+      options: [
+        {
+          id: "vi",
+          flag: "🇻🇳",
+          title: "Vietnamese Version (VI)",
+          role: "Le Quang Sang - Software Engineer",
+          meta: "PDF Format • ~3.6 MB",
+          badge: "Vietnamese",
+          btnText: "Download",
+          fileUrl: "cv%20sangle%20vi.pdf",
+          downloadName: "cv sangle vi.pdf",
+          toast: "Downloading Vietnamese CV..."
+        },
+        {
+          id: "en",
+          flag: "🇬🇧",
+          title: "English Version (EN)",
+          role: "Le Quang Sang - Software Engineer",
+          meta: "PDF Format • ~3.4 MB",
+          badge: "Recommended",
+          btnText: "Download",
+          fileUrl: "cv%20sangle%20en.pdf",
+          downloadName: "cv sangle en.pdf",
+          toast: "Downloading English CV..."
+        },
+        {
+          id: "zh",
+          flag: "🇨🇳",
+          title: "Chinese Version (ZH)",
+          role: "黎光尚 - Software Engineer (Full Stack/AI)",
+          meta: "PDF Format • ~3.9 MB",
+          badge: "Chinese",
+          btnText: "Download",
+          fileUrl: "cv%20sangle%20zh.pdf",
+          downloadName: "cv sangle zh.pdf",
+          toast: "Downloading Chinese CV..."
+        }
+      ]
+    }
   },
   personal: {
     name: "LE QUANG SANG",

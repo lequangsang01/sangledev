@@ -18,7 +18,50 @@ cvData.vi = {
     closeModal: "Đóng",
     openOriginal: "Mở ảnh gốc",
     verifiedBadge: "Văn Bằng Đã Xác Thực",
-    contribLabel: "Nhiệm vụ & Đóng góp chính:"
+    contribLabel: "Nhiệm vụ & Đóng góp chính:",
+    downloadModal: {
+      title: "Tải Xuống Bản CV Chuẩn (PDF)",
+      subtitle: "Vui lòng chọn phiên bản ngôn ngữ bạn muốn tải xuống:",
+      directPrint: "In trực tiếp từ trình duyệt (Web Print / A4)",
+      options: [
+        {
+          id: "vi",
+          flag: "🇻🇳",
+          title: "Bản Tiếng Việt (VI)",
+          role: "Lê Quang Sang - Kỹ Sư Phần Mềm",
+          meta: "Định dạng PDF • Dung lượng ~3.6 MB",
+          badge: "Khuyên dùng",
+          btnText: "Tải về",
+          fileUrl: "cv%20sangle%20vi.pdf",
+          downloadName: "cv sangle vi.pdf",
+          toast: "Đang tải xuống CV bản Tiếng Việt..."
+        },
+        {
+          id: "en",
+          flag: "🇬🇧",
+          title: "Bản Tiếng Anh (EN)",
+          role: "Le Quang Sang - Software Engineer",
+          meta: "Định dạng PDF • Dung lượng ~3.4 MB",
+          badge: "English",
+          btnText: "Tải về",
+          fileUrl: "cv%20sangle%20en.pdf",
+          downloadName: "cv sangle en.pdf",
+          toast: "Đang tải xuống CV bản Tiếng Anh..."
+        },
+        {
+          id: "zh",
+          flag: "🇨🇳",
+          title: "Bản Tiếng Trung (ZH)",
+          role: "黎光尚 - 软件工程师 (全栈/AI)",
+          meta: "Định dạng PDF • Dung lượng ~3.9 MB",
+          badge: "中文版",
+          btnText: "Tải về",
+          fileUrl: "cv%20sangle%20zh.pdf",
+          downloadName: "cv sangle zh.pdf",
+          toast: "Đang tải xuống CV bản Tiếng Trung..."
+        }
+      ]
+    }
   },
   personal: {
     name: "LÊ QUANG SANG",

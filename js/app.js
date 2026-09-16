@@ -70,6 +70,44 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.toggle('active', btn.dataset.lang === lang);
     });
 
+    // Download Modal Content
+    const modalHeading = document.getElementById('download-modal-heading');
+    const modalSub = document.getElementById('download-modal-sub');
+    const directPrintText = document.getElementById('download-direct-print-text');
+    const optionsContainer = document.getElementById('download-options-list');
+
+    if (data.meta && data.meta.downloadModal) {
+      if (modalHeading) modalHeading.textContent = data.meta.downloadModal.title;
+      if (modalSub) modalSub.textContent = data.meta.downloadModal.subtitle;
+      if (directPrintText) directPrintText.textContent = data.meta.downloadModal.directPrint;
+
+      if (optionsContainer && Array.isArray(data.meta.downloadModal.options)) {
+        optionsContainer.innerHTML = data.meta.downloadModal.options.map(opt => `
+          <a href="${opt.fileUrl}" download="${opt.downloadName}" class="pdf-download-card ${opt.id === lang ? 'highlight' : ''}" data-toast="${opt.toast}">
+            <div class="pdf-card-left">
+              <span class="pdf-flag-icon">${opt.flag}</span>
+              <div class="pdf-card-info">
+                <div class="pdf-card-title-row">
+                  <span class="pdf-card-title">${opt.title}</span>
+                  <span class="pdf-card-badge">${opt.badge}</span>
+                </div>
+                <div class="pdf-card-desc">${opt.role}</div>
+                <div class="pdf-card-meta">${opt.meta}</div>
+              </div>
+            </div>
+            <span class="pdf-card-action-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>${opt.btnText}</span>
+            </span>
+          </a>
+        `).join('');
+      }
+    }
+
     // 2. Personal Information
     document.getElementById('candidate-name').textContent = data.personal.name;
     document.getElementById('candidate-subname').textContent = data.personal.subName ? `(${data.personal.subName})` : '';
@@ -365,10 +403,10 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Print Button Click
+      // Print / Download CV Button Click -> Open Modal
       const printBtn = e.target.closest('#btn-print-cv');
       if (printBtn) {
-        window.print();
+        openDownloadModal();
         return;
       }
 
@@ -427,23 +465,57 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Close Modal when clicking close button or backdrop
+      // Close Credential Modal
       if (e.target.closest('#modal-close-btn') || e.target.id === 'credential-modal') {
         closeDocModal();
         return;
+      }
+
+      // Close Download Modal
+      if (e.target.closest('#download-modal-close-btn') || e.target.id === 'download-modal') {
+        closeDownloadModal();
+        return;
+      }
+
+      // Direct Print button inside Download Modal
+      if (e.target.closest('#btn-modal-print-direct')) {
+        closeDownloadModal();
+        setTimeout(() => {
+          window.print();
+        }, 200);
+        return;
+      }
+
+      // Click on a PDF download card
+      const pdfCard = e.target.closest('.pdf-download-card');
+      if (pdfCard) {
+        const toastMsg = pdfCard.dataset.toast;
+        if (toastMsg) {
+          showToast(toastMsg);
+        }
+        setTimeout(() => {
+          closeDownloadModal();
+        }, 1200);
       }
     });
 
     // Keyboard navigation in Modal: Escape to close, Left/Right arrow to navigate
     document.addEventListener('keydown', (e) => {
-      const modal = document.getElementById('credential-modal');
-      const isModalOpen = modal && modal.classList.contains('active');
+      const credModal = document.getElementById('credential-modal');
+      const isCredOpen = credModal && credModal.classList.contains('active');
 
-      if (!isModalOpen) return;
+      const dlModal = document.getElementById('download-modal');
+      const isDlOpen = dlModal && dlModal.classList.contains('active');
 
       if (e.key === 'Escape') {
-        closeDocModal();
-      } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+        if (isCredOpen) closeDocModal();
+        if (isDlOpen) closeDownloadModal();
+        return;
+      }
+
+      if (!isCredOpen) return;
+
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
         nextDocModal();
       } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
         prevDocModal();
@@ -531,7 +603,29 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!modal) return;
     modal.classList.remove('active');
     modal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
+    const dlModal = document.getElementById('download-modal');
+    if (!dlModal || !dlModal.classList.contains('active')) {
+      document.body.style.overflow = '';
+    }
+  }
+
+  function openDownloadModal() {
+    const modal = document.getElementById('download-modal');
+    if (!modal) return;
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeDownloadModal() {
+    const modal = document.getElementById('download-modal');
+    if (!modal) return;
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+    const credModal = document.getElementById('credential-modal');
+    if (!credModal || !credModal.classList.contains('active')) {
+      document.body.style.overflow = '';
+    }
   }
 
   /**

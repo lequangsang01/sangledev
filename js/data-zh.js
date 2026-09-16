@@ -18,7 +18,50 @@ cvData.zh = {
     closeModal: "关闭",
     openOriginal: "查看原图",
     verifiedBadge: "官方认证学历资质",
-    contribLabel: "核心职责与贡献"
+    contribLabel: "核心职责与贡献",
+    downloadModal: {
+      title: "下载标准简历 (PDF)",
+      subtitle: "请选择您需要下载的简历语言版本：",
+      directPrint: "直接打印当前网页（浏览器打印 / A4）",
+      options: [
+        {
+          id: "vi",
+          flag: "🇻🇳",
+          title: "越南语版本 (VI)",
+          role: "黎光尚 - 软件工程师",
+          meta: "PDF 格式 • 大小 ~3.6 MB",
+          badge: "越南语",
+          btnText: "下载",
+          fileUrl: "cv%20sangle%20vi.pdf",
+          downloadName: "cv sangle vi.pdf",
+          toast: "正在下载越南语版简历..."
+        },
+        {
+          id: "en",
+          flag: "🇬🇧",
+          title: "英语版本 (EN)",
+          role: "Le Quang Sang - Software Engineer",
+          meta: "PDF 格式 • 大小 ~3.4 MB",
+          badge: "英文版",
+          btnText: "下载",
+          fileUrl: "cv%20sangle%20en.pdf",
+          downloadName: "cv sangle en.pdf",
+          toast: "正在下载英文版简历..."
+        },
+        {
+          id: "zh",
+          flag: "🇨🇳",
+          title: "中文版本 (ZH)",
+          role: "黎光尚 - 软件工程师 (全栈与 AI 架构)",
+          meta: "PDF 格式 • 大小 ~3.9 MB",
+          badge: "官方推荐",
+          btnText: "下载",
+          fileUrl: "cv%20sangle%20zh.pdf",
+          downloadName: "cv sangle zh.pdf",
+          toast: "正在下载中文版简历..."
+        }
+      ]
+    }
   },
   personal: {
     name: "黎光尚",
